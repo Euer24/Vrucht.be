@@ -1,0 +1,15 @@
+.recept-container {
+    width: 100%;
+    max-width: 900px; /* You can adjust this value */
+    margin: 0 auto; /* This will center the container */
+  }
+  
+  .recept-container img {
+    width: 100%;
+    height: auto; /* This will maintain the image's aspect ratio */
+    
+  }
+
+  p {
+    text-align: center;
+  }
