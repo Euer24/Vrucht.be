@@ -11,32 +11,20 @@
 <body>
 <?php include 'layouts/navbar.php'; ?>
 <h1>Contact</h1>
-<br><br><br><br>
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $opmerking = $_POST['opmerking'];
+<p>Wilt u contact opnememen met ons?</p>
+<p class = "last-p">Vul dan AUB het formulier in.</p>
 
-    $to = 'euer2017@gmail.com';
-    $subject = 'Test';
-    $message = "Name: $name\nEmail: $email\nOpmerking: $opmerking";
-    $headers = 'From: euer2017@gmail.com';
-
-    mail($to, $subject, $message, $headers);
-}
-?>
-
-<form action="" method="post">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <label for="opmerking">Opmerking:</label><br>
-    <textarea id="opmerking" name="opmerking"></textarea><br>
+<form action="layouts/_send.php" method="post" id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="opmerking">Opmerking:</label>
+    <textarea id="opmerking" name="opmerking"></textarea>
     <input type="submit" value="Submit">
 </form>
+
 <?php include 'layouts/footer.php'; ?>
 </body>
 </html>

@@ -4,7 +4,7 @@
         
 
     <nav class="navbar">
-                <a href="home.php">Home</a>
+                <a href="/">Home</a>
                 <a href="recept.php">Recepten</a>
                 <a href="overons.php">Over Ons</a>
                 <a href="contact.php">Contact</a>

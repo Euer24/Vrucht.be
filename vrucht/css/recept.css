@@ -3,14 +3,22 @@
     max-width: 900px; /* You can adjust this value */
     margin: 0 auto; /* This will center the container */
     margin-top: 20px;
+    
   }
   
   .recept-container img {
     width: 100%;
     height: auto; /* This will maintain the image's aspect ratio */
-    
   }
 
   p {
     text-align: center;
+  }
+
+  h1{
+  padding-bottom: 60px;
+  }
+
+  footer{
+    margin-top: 40px;
   }

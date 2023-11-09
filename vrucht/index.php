@@ -60,19 +60,19 @@ footer img.logo {
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="img/img9.jpg" style="width:100%" >
+    <img src="img/500.png" style="width:100%" >
     <div class="text">Fruit smoothie</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img/img10.jpg" style="width:100%">
+    <img src="img/500.png" style="width:100%">
     <div class="text">fruit salade</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img/img11.jpg" style="width:100%">
+    <img src="img/500.png" style="width:100%">
     <div class="text">fruit spies</div>
   </div>
 
@@ -97,29 +97,12 @@ footer img.logo {
 
 <p>je vindt hier lekkere, snelle en echt makkelijke recepten voor elke dag. Wij laten zien dat je elke dag lekker kan eten en dat dit helemaal niet ingewikkeld hoeft te zijn. Met een handvol ingrediënten kan je al snel iets lekkers maken. En met een kleine twist maken we van iets simpels graag iets bijzonders. Aan de slag!</p>
 
-<br><br><br><br><br><br><br><br>
-
-<footer>
-    <img class="logo" src="img/logo.png" alt="Logo"> 
-    <ul>
-        <a href="home.php">Home</a>
-        <a href="recept.php">Recepten</a>
-        <a href="overons.php">Overons</a>
-        <a href="contact.php">Contact</a>
-    </ul>
-    <div class="footer-images">
-        <a href="#"><img src="img/instagram.jpg" alt="instagram"></a>
-        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
-        <a href="#"><img src="img/twitter.png" alt="twitter.png"></a>
-    </div>
-</footer>
 
 
-
+<?php include 'layouts/footer.php'; ?>
 
 
 </body>
-
 <script>
     let slideIndex = 1;
 showSlides(slideIndex);

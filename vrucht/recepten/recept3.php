@@ -5,67 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/flexbox.css">
-<style>
-
-body {
-    background-image: linear-gradient(rgb(144, 238, 144), rgb(0, 191, 255));
-}
-
-    .recept-container {
-            width: 100%;
-            max-width: 500px; 
-            margin: 0 auto; 
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 10px;
-        }
-  
-        .recept-container img {
-            width: 100%;
-            height: auto; 
-        }
-
-        p {
-            text-align: left;
-            margin-left: 170px;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        h2 {
-            text-align: center;
-            color: #666;
-        }
-
-        .colum {
-            border: 1px solid #000;
-            padding: 10px;
-        }
-
-        .button {
-            margin-top: 120px;
-            margin-left: 250px;
-            background-color:teal;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            border-radius: 6px;
-        }
-
-        .button:hover {
-            background-color:  #006666;;
-         
-        }
-    </style>
-
+    <link rel="stylesheet" href="../css/fruit.css">
 </head>
 <body>
 <?php include '../namen.php'; ?>
@@ -73,7 +13,7 @@ body {
 <a href="../recept.php" class="button">Ga Terug</a>
 
     <div class="recept-container">
-        <img src="../img/img11.jpg">
+        <img src="../img/500.png">
 
         <div class="colum">
 
@@ -85,13 +25,10 @@ body {
         <p>Handje diepvries framboos</p>
         <p>Handje diepvries bramen</p>
         <p>200ml haverdrank </p>
+
+        <h3>Bereiding</h3>
+        <p class="bereiding">Laat het fruit ca. 5 min. ontdooien. Pers ondertussen de perssinaasappels uit. Snijd de bananen in stukjes. Pureer al het fruit, het sinaasappelsap en de yoghurt in een blender of in een hoge kom met een staafmixer. Verdeel de smoothie over hoge glazen. Steek er rietjes in en serveer direct.</p>
         </div>
     </div>
-
-
-
-
 </body>
-
-
 </html>
