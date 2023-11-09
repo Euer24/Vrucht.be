@@ -19,27 +19,6 @@ p{
     
 }
 
-.receptKnop {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    padding: 10px 20px; 
-    background-color: #4CAF50; 
-    color: white;
-    border: none; 
-    cursor: pointer; 
-    text-decoration: none; 
-    text-align: center;
-    font-size: 16px; 
-    transition: background-color 0.3s ease; 
-}
-
-.receptKnop:hover {
-    background-color: #45a049;
-}
-
 *
 {
     margin: 0;
@@ -121,39 +100,33 @@ body {
 }
 
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(206, 58, 14);
+.receptKnopContainer
+{
+    margin-top: 20px;
+}
+
+.receptKnop {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
     color: white;
-    padding: 10px;
-    height: 120px;
+    border: none; 
+    cursor: pointer; 
+    text-decoration: none; 
+    text-align: center;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
 }
 
-footer a {
-    display: block; /* Change this line */
-    color: white;
-    margin: 8px 0;
-    padding: 5px 3;
-    text-decoration: none;
-    margin-left: 30px;
+.receptKnop:hover {
+    background-color: #45a049;
 }
 
-.footer-images {
-    display: flex;
+.receptKnopContainer
+{
+    margin-top: 200px;
 }
-
-.footer-images a img {
-    width: 30px; 
-    height: auto;
-    margin-left: 5px; 
-}
-
-footer img.logo {
-    width: 40px; /* Adjust as needed */
-    height: auto; /* Keeps the aspect ratio */
-    margin-left: 400px;
-}
-/* einde Footer */

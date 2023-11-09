@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 900px; /* You can adjust this value */
     margin: 0 auto; /* This will center the container */
+    margin-top: 20px;
   }
   
   .recept-container img {

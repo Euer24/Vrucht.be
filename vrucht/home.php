@@ -7,22 +7,51 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/slider.css">
     <link rel="stylesheet" href="/css/home.css">
+    <style>
+      footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(206, 58, 14);
+    color: white;
+    padding: 10px;
+    height: 120px;
+    padding-left: 20px; 
+    margin-top: auto; 
+}
+footer a {
+    display: block; 
+    color: white;
+    margin: 8px 0;
+    padding: 5px 3;
+    text-decoration: none;
+    margin-left:20px;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+.footer-images a img {
+    width: 30px; 
+    height: 30px;
+    display: flex;
+}
+
+footer img.logo {
+    width: 40px; 
+    margin-right: 800px;
+}
+/* einde Footer */
+    </style>
 </head>
 <body>
     
-
-    <header class="header">
-        <img src="/img/logo.png" class="logo"alt="logo" >
-        
-
-    <nav class="navbar">
-                <a href="home.html">Home</a>
-                <a href="recept.php">Recepten</a>
-                <a href="overons.html">Over Ons</a>
-                <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
+<?php include 'layouts/navbar.php'; ?>
 
 <h1>Home</h1>
 
@@ -73,10 +102,10 @@
 <footer>
     <img class="logo" src="img/logo.png" alt="Logo"> 
     <ul>
-        <a href="home.html">Home</a>
+        <a href="home.php">Home</a>
         <a href="recept.php">Recepten</a>
-        <a href="overons.html">Overons</a>
-        <a href="contact.html">Contact</a>
+        <a href="overons.php">Overons</a>
+        <a href="contact.php">Contact</a>
     </ul>
     <div class="footer-images">
         <a href="#"><img src="img/instagram.jpg" alt="instagram"></a>
@@ -84,6 +113,10 @@
         <a href="#"><img src="img/twitter.png" alt="twitter.png"></a>
     </div>
 </footer>
+
+
+
+
 
 </body>
 

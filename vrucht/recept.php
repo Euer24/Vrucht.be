@@ -6,22 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/flexbox.css">
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 <body>
-<header class="header">
-<img src="/img/logo.png" class="logo"alt="logo" >
+<?php include 'layouts/navbar.php'; ?>
 
-    <nav class="navbar">
-                <a href="home.html">Home</a>
-                <a href="recept.php">Recepten</a>
-                <a href="overons.html">Over Ons</a>
-                <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-<?php
-include 'namen.php';
-?>
+<?php include 'namen.php';?>
 
 <h1>De nieuwste recepten</h1>
 <br><br><br>
@@ -51,6 +41,26 @@ include 'namen.php';
 <div class="flex-item"><img src="img/img8.jpg" alt="img 8"><a href="recepten/recept8.php"><?php echo "$recept8"; ?> </a><br>
 <p>1-8-2023</p></div>
 </div>
+
+
+
+
+<br><br><br><br><br><br><br><br>
+
+<footer>
+    <img class="logo" src="img/logo.png" alt="Logo"> 
+    <ul>
+        <a href="home.html">Home</a>
+        <a href="recept.php">Recepten</a>
+        <a href="overons.html">Overons</a>
+        <a href="contact.html">Contact</a>
+    </ul>
+    <div class="footer-images">
+        <a href="#"><img src="img/instagram.jpg" alt="instagram"></a>
+        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="img/twitter.png" alt="twitter.png"></a>
+    </div>
+</footer>
 
 
 </body>
