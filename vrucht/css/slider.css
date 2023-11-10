@@ -8,7 +8,7 @@
   }
   
   
-/* Hide the images by default */
+
 .mySlides {
   display: none;
   height: 100%; 
@@ -19,7 +19,7 @@
   width: auto; 
 }
 
-  /* Hide the images by default */
+
   .mySlides {
     display: none;
   }
@@ -40,20 +40,20 @@
     user-select: none;
   }
   
-  /* Position the "next button" to the right */
+  /* Dit is de next button*/
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
+  /* hover kleur */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
   /* Caption text */
   .text {
-    color: #000000;
+    color: #ffffff;
     font-size: 30px;
     padding: 32px 12px;
     position: absolute;
@@ -64,18 +64,8 @@
     text-decoration: underline;
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-    height: 300px;
-    object-fit: cover;
-  }
   
-  /* The dots/bullets/indicators */
+  /* de 3 bolletjes onder de slideshow */
   .dot {
     cursor: pointer;
     height: 15px;

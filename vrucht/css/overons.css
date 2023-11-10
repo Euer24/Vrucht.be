@@ -15,14 +15,18 @@
 }
 
 .image-row {
-  margin-top: 200px;
+margin-top: 200px;
 display: flex;
 justify-content: center;
-
-
 }
 
 .image-row img {
 width: 20%;
+}
 
+.background-image {
+  width: 250px;
+  height: 250px; 
+  background-size: cover;
+  background-position: center;
 }

@@ -4,50 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <?php include 'layouts/head.php'; ?>
     <link rel="stylesheet" href="/css/slider.css">
     <link rel="stylesheet" href="/css/home.css">
-    <style>
-      footer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgb(206, 58, 14);
-    color: white;
-    padding: 10px;
-    height: 120px;
-    padding-left: 20px; 
-    margin-top: auto; 
-}
-footer a {
-    display: block; 
-    color: white;
-    margin: 8px 0;
-    padding: 5px 3;
-    text-decoration: none;
-    margin-left:20px;
-}
-
-.footer-images {
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    margin-right: 60px;
-    margin-top: 80px;
-}
-
-.footer-images a img {
-    width: 30px; 
-    height: 30px;
-    display: flex;
-}
-
-footer img.logo {
-    width: 40px; 
-    margin-right: 800px;
-}
-/* einde Footer */
-    </style>
 </head>
 <body>
     
@@ -58,24 +17,19 @@ footer img.logo {
 <div class="slideshow-container">
 
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img/500.png" style="width:100%" >
-    <div class="text">Fruit smoothie</div>
-  </div>
+<div class="mySlides fade" style="background-image: url('img/home1.jpg'); background-size: cover; background-position: center;">
+    <a href="/recepten/recept1" class="text">Fruit smoothie</a>
+</div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img/500.png" style="width:100%">
-    <div class="text">fruit salade</div>
-  </div>
+<div class="mySlides fade" style="background-image: url('img/home2.jpg'); background-size: cover; background-position: center;">
+<a href="/recepten/recept2" class="text">Fruit blokjes</a>
+</div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/500.png" style="width:100%">
-    <div class="text">fruit spies</div>
-  </div>
+<div class="mySlides fade" style="background-image: url('img/home3.jpg'); background-size: cover; background-position: center;">
+<a href="/recepten/recept3" class="text">mango salade</a>
+</div>
 
+  
   
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -90,7 +44,7 @@ footer img.logo {
 </div>
 
 <div class="receptKnopContainer">
-    <button class="receptKnop" href="recept.php">Bekijk Recept</button>
+    <a class="receptKnop" href="recept.php">Bekijk Recept</a>
 </div>
 
 <h2>Welkom bij Vrucht</h2>

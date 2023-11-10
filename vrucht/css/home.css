@@ -5,3 +5,42 @@ margin-bottom: 30px;
 p{
     padding-bottom: 100px;
 }
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(206, 58, 14);
+    color: white;
+    padding: 10px;
+    height: 120px;
+    padding-left: 20px; 
+    margin-top: auto; 
+}
+footer a {
+    display: block; 
+    color: white;
+    margin: 8px 0;
+    padding: 5px 3;
+    text-decoration: none;
+    margin-left:20px;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+.footer-images a img {
+    width: 30px; 
+    height: 30px;
+    display: flex;
+}
+
+footer img.logo {
+    width: 40px; 
+    margin-right: 1200px;
+}

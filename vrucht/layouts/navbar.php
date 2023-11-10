@@ -1,6 +1,7 @@
 
 <header class="header">
-        <img src="/img/logo.png" class="logo"alt="logo" >
+    <a href="/"><img src="/img/logo.png" class="logo" alt="logo"></a>
+
         
 
     <nav class="navbar">

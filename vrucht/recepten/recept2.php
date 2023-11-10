@@ -6,20 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/flexbox.css">
     <link rel="stylesheet" href="../css/fruit.css">
+    <?php include '../layouts/head.php'; ?>
 </head>
 <body>
+
 <?php include '../namen.php'; ?>
+<?php include '../layouts/navbar.php'; ?>
 
 <a href="../recept.php" class="button">Ga Terug</a>
 
     <div class="recept-container">
-        <img src="../img/500.png">
+        <img src="../img/img2.jpg">
 
         <div class="colum">
+        <h1> <?php echo "$recept2"; ?></h1>
 
-        <h1>ingrediënten</h1>
-        
-       <h2> <?php echo "$recept2"; ?></h2>
+<h2>ingrediënten</h2>
         
         <p>Handje diepvries mango</p>
         <p>Handje diepvries framboos</p>
@@ -30,5 +32,7 @@
         <p class="bereiding">Laat het fruit ca. 5 min. ontdooien. Pers ondertussen de perssinaasappels uit. Snijd de bananen in stukjes. Pureer al het fruit, het sinaasappelsap en de yoghurt in een blender of in een hoge kom met een staafmixer. Verdeel de smoothie over hoge glazen. Steek er rietjes in en serveer direct.</p>
         </div>
     </div>
+
+ 
 </body>
 </html>

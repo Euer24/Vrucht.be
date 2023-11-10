@@ -4,24 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <?php include 'layouts/head.php'?>
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/overons.css">
-   
-
-  <style>
-
-
-  </style>
 </head>
 
 <body>
 <?php include 'layouts/navbar.php'; ?>
 
 <div class="image-row">
-    <img src="/img/people1.jpg" alt="Image 1">
-    <img src="/img/people2.jpg" alt="Image 2">
-    <img src="/img/people3.jpg" alt="Image 3">
+    <div class="background-image" style="background-image: url('img/people1.jpg');"></div>
+    <div class="background-image" style="background-image: url('img/people2.jpg');"></div>
+    <div class="background-image" style="background-image: url('img/people3.jpg');"></div>
 </div>
 
 <h1>Over ons</h1>

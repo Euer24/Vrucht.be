@@ -35,69 +35,6 @@ body {
     
 }
 
-.header
-{
-    position: fixed;
-    top: 0;
-    left: 0; 
-    width: 100%;
-    padding: 20px, 100px;
-    background: rgb(206, 58, 14);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    
-}
-
-.logo {
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    height: auto;
-    width: 70px;
-}
-
-.navbar
-{
-   font-size: 18px;
-   color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-    height: 60px;
-    padding-top: 20px;
-
-}
-
-
-.navbar a
-{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-   
-   
-}
-
-.navbar a::before
-{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #a12a2a;
-    transition: 0.3s;
-}
-
-.navbar a:hover::before
-{
-   width: 100%;
-}
 
 
 .receptKnopContainer
@@ -130,3 +67,11 @@ body {
 {
     margin-top: 200px;
 }
+
+
+    .icon {
+        margin-right: 20px; 
+    }
+
+
+   

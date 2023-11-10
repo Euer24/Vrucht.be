@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/contact.css">
+    <?php include 'layouts/head.php'?>
 </head>
 <body>
 <?php include 'layouts/navbar.php'; ?>
@@ -15,7 +15,7 @@
 <p>Wilt u contact opnememen met ons?</p>
 <p class = "last-p">Vul dan AUB het formulier in.</p>
 
-<form action="layouts/_send.php" method="post" id="contact-form">
+<form action="_send.php" method="post" id="contact-form">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
     <label for="email">Email:</label>

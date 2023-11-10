@@ -6,20 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/flexbox.css">
     <link rel="stylesheet" href="../css/fruit.css">
+    <?php include '../layouts/head.php'; ?>
 </head>
 <body>
 <?php include '../namen.php'; ?>
+<?php include '../layouts/navbar.php'; ?>
 
 <a href="../recept.php" class="button">Ga Terug</a>
 
     <div class="recept-container">
-        <img src="../img/500.png">
+    <img src="../img/img8.jpg">
 
         <div class="colum">
 
-        <h1>ingrediënten</h1>
-        
-       <h2> <?php echo "$recept8"; ?></h2>
+        <h1> <?php echo "$recept8"; ?></h1>
+
+        <h2>ingrediënten</h2>
         
         <p>Handje diepvries mango</p>
         <p>Handje diepvries framboos</p>
