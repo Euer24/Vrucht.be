@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Overons</title>
     <?php include 'layouts/head.php'?>
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/overons.css">
 </head>
 
 <body>
-<?php include 'layouts/navbar.php'; ?>
+
 
 <div class="image-row">
     <div class="background-image" style="background-image: url('img/people1.jpg');"></div>

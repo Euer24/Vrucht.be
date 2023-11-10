@@ -1,17 +1,16 @@
 /* Slideshow container */
 .slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-    margin-top: 50px;
-    height: 70vh;
-  }
-  
-  
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  height: 70vh;
+}
 
 .mySlides {
   display: none;
-  height: 100%; 
+  height: 100%;
+  background-size: cover; 
 }
 
 .mySlides img {

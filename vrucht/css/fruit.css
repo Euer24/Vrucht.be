@@ -3,15 +3,15 @@ body {
     background: url('/img/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: Arial, sans-serif; /* Use a more readable font */
-    color: #333; /* Darker text for better contrast */
+    font-family: Arial, sans-serif; 
+    color: #333; 
     line-height: 1.6; /
 }
 
 
 .recept-container {
     width: 100%;
-    max-width: 500px; 
+    max-width: 700px; 
     margin: 0 auto; 
     background-color: #fff;
     padding: 20px;
@@ -25,20 +25,27 @@ body {
 }
 
 p {
-    text-align: left;
-    margin-left: 170px;
+    text-align: center;
+       
 }
 
 .bereiding {
-    text-align: left;
-    margin-left: 150px;
-    max-width: 230px;
+    text-align: center;
+    max-width: 500px;
 }
 
-h1, h2, h3 {
+h1,h2 {
     font-family: 'Georgia', serif; 
     color: #333; 
     text-align: center;
+    line-height: 0.5;
+}
+
+h3 {
+    font-family: 'Georgia', serif; 
+    color: #333; 
+    text-align: center;
+    line-height: 1.5;
 }
 .colum {
     border: 1px solid #000;
@@ -57,9 +64,9 @@ h1, h2, h3 {
     display: inline-block;
     font-size: 16px;
     border-radius: 6px;
+    width: 150px;
 }
 
 .button:hover {
     background-color:  #006666;;
- 
 }
