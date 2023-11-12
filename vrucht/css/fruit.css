@@ -5,9 +5,8 @@ body {
     background-position: center;
     font-family: Arial, sans-serif; 
     color: #333; 
-    line-height: 1.6; /
+    line-height: 1.6;
 }
-
 
 .recept-container {
     width: 100%;
@@ -24,9 +23,13 @@ body {
     height: auto; 
 }
 
+.image-text-container {
+    display: flex;
+    gap: 20px;
+}
+
 p {
     text-align: center;
-       
 }
 
 .bereiding {
@@ -47,6 +50,7 @@ h3 {
     text-align: center;
     line-height: 1.5;
 }
+
 .colum {
     border: 1px solid #000;
     padding: 10px;
@@ -68,5 +72,26 @@ h3 {
 }
 
 .button:hover {
-    background-color:  #006666;;
+    background-color:  #006666;
+}
+
+
+.image-text-container {
+    display: flex;
+    gap: 20px; /* adjust this to add space between the image and the text */
+    align-items: center;
+}
+
+.image-text-container img, .image-text-container p {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .image-text-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .button{
+        margin-left: 10px;
+    }
 }

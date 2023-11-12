@@ -11,12 +11,15 @@
 </head>
 <body>
 <?php include '../namen.php'; ?>
-<?php include '../layouts/navbar.php'; ?>s
+<?php include '../layouts/recept-navbar.php'; ?>s
 
 <a href="../recept.php" class="button">Ga Terug</a>
 
-    <div class="recept-container">
+<div class="recept-container">
+    <div class="image-text-container">
         <img src="../img/img1.jpg">
+        <p>Mmm, een heerlijke Mangosmoothie met amandelmelk en framboos. Extra romig door de banaan die er ook in zit.</p>
+    </div>
 
         <div class="colum">
 
@@ -33,5 +36,8 @@
         </div>
     </div>
     
+   
+        <?php include '../layouts/hamburger.php' ?>
+   
 </body>
 </html>

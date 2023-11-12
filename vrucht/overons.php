@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<?php include 'layouts/navbar.php'; ?>
 
 
 <div class="image-row">
@@ -30,6 +31,8 @@
 
 
 <?php  include 'layouts/footer.php'; ?>
+<?php include 'layouts/hamburger.php'; ?>
+
 
 </body>
 </html>

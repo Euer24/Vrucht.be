@@ -88,4 +88,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+<?php include 'layouts/hamburger.php'; ?>
 </html>

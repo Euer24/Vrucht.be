@@ -43,7 +43,7 @@
 <p> 6-11-2023</p></div>
 
 <?php include 'layouts/footer.php'; ?>
-
+<?php include 'layouts/hamburger.php'; ?>
 
 
 </body>
