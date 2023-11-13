@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     z-index: 100;
-    
+   
 }
 
 .logo {
@@ -19,20 +19,20 @@
     text-decoration: none;
     height: auto;
     width: 70px;
+    margin-right: 180px;
 }
 
-.navbar
-{
-   font-size: 18px;
-   color: #fff;
+.navbar {
+    font-size: 18px;
+    color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
     height: 60px;
-    padding-top: 20px;
-
+    padding-right: 300px;
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
 }
-
 
 .navbar a
 {
@@ -41,6 +41,7 @@
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
+    
    
    
 }
@@ -81,20 +82,50 @@
     height: auto; 
 }
 
+.navbar.open {
+    display: block;
+    width: 400px;
+    position: absolute;
+    top: 100%;
+    left: 10;
+    background-color: rgb(206, 58, 14);
+    text-align: left;
+}
+
+
+
+.navbar.open a {
+    display: block;
+}
+
+@media (min-width: 769px) {
+    .navbar {
+        position: static;
+        display: flex;
+        height: auto;
+        overflow: visible;
+    }
+    .navbar a {
+        display: inline;
+        margin-top: 0;
+    }
+    .hamburger {
+        display: none;
+    }
+}
 @media (max-width: 768px) {
     .navbar {
-        display: flex;
+        display: none;
         flex-direction: column;
-        height: 0;
-        overflow: hidden;
-        transition: height 0.3s ease-out;
+        background-color: #fff; 
+    }
+    .navbar.open {
+        display: block;
     }
     .navbar a {
         display: block;
         margin-top: 5px;
-        max-width: 100%;
-        max-height: 300px;
-        box-sizing: border-box; /* add this line */
+        color: #000; 
     }
     .hamburger {
         display: flex;
@@ -103,10 +134,59 @@
 }
 @media (max-width: 340px) {
     .hamburger {
-        margin-left: 20px; /* adjust this value as needed */
+        margin-left: 20px; 
     }
     .navbar a {
-        padding: 10px; /* adjust this value as needed */
-        
+        padding: 10px;
+    }
+
+    .receptKnop {
+       
+        margin-top: 80px;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #fff; /* match navbar link color */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(206, 58, 14);
+    min-width: 10px;
+    z-index: 1;
+    left: -50px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    
+}
+
+.dropdown-content.show {
+    display: block;
+    opacity: 1; /* Added */
+}
+.dropdown-content a {
+    color: #fff; 
+    padding: 16px 8px;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .dropdown-content {
+        background-color: rgb(206, 58, 14);
+    }
+
+    .dropdown-content a {
+        color: #000; 
     }
 }

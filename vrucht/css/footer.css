@@ -49,7 +49,7 @@ footer a {
 
 footer img.logo {
     width: 40px; 
-    margin-right: 20px;
+    
 }
 
 /* Responsive styles */
@@ -76,7 +76,7 @@ footer img.logo {
 }
 
 footer{
-    margin-top: 60px;
+    margin-top: 130px;
     width: 100%;
   }
 /* einde Footer */

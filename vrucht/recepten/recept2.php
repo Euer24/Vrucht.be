@@ -36,7 +36,7 @@
         </div>
     </div>
     
-   
+        <?php include '../layouts/recept.footer.php'; ?>
         <?php include '../layouts/hamburger.php' ?>
    
 </body>

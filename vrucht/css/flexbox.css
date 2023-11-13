@@ -11,7 +11,7 @@
     padding: 20px;
     font-size: 30px;
     flex-basis: 20%;
-    margin-left: 58px;
+    margin-left: 68px;
     
   }
   
@@ -28,9 +28,17 @@ transition: 1s;
   }
   
   /* voor schermen kleiner dan 600px*/
-  @media (max-width: 600px) {
-    .flex-container > div {
+@media (max-width: 600px) {
+  .flex-container > .flex-item {
       margin: 10px;
       flex: 1 0 100px; 
-    }
+      width: 100%; /* Added */
   }
+}
+
+@media (max-width: 340px) {
+  .flex-container > .flex-item {
+      margin-left: 20px;
+      width: 100%; /* Added */
+  }
+}

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fruit, Blog, recepten">
+    <meta name="description" content="Gratis recepten voor fruit gerechten">
     <title>Home</title>
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -13,21 +15,20 @@
     
 <?php include 'layouts/navbar.php'; ?>
 
-<h1>Home</h1>
-
 <div class="slideshow-container">
 
 
 <div class="mySlides fade" style="background-image: url('img/home1.jpg'); background-size: cover; background-position: center;">
-    <a href="/recepten/recept1" class="text">Fruit smoothie</a>
+    <a href="/recepten/recept1" class="text">Mango Smoothie <p>Een lekkere smoothie voor een gezonde start van de dag!</p></a>
+    
 </div>
 
 <div class="mySlides fade" style="background-image: url('img/home2.jpg'); background-size: cover; background-position: center;">
-<a href="/recepten/recept2" class="text">Fruit blokjes</a>
+<a href="/recepten/recept2" class="text">Fruit blokjes<p>Lekker voor in de zomer</p></a>
 </div>
 
 <div class="mySlides fade" style="background-image: url('img/home3.jpg'); background-size: cover; background-position: center;">
-<a href="/recepten/recept3" class="text">mango salade</a>
+<a href="/recepten/recept3" class="text">mango salade<p>Erg gezond</p></a>
 </div>
 
   
@@ -44,15 +45,13 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
-<div class="receptKnopContainer">
-    <a class="receptKnop" href="recept.php">Bekijk Recept</a>
-</div>
-
 <h2>Welkom bij Vrucht</h2>
 
 <p>je vindt hier lekkere, snelle en echt makkelijke recepten voor elke dag. Wij laten zien dat je elke dag lekker kan eten en dat dit helemaal niet ingewikkeld hoeft te zijn. Met een handvol ingrediënten kan je al snel iets lekkers maken. En met een kleine twist maken we van iets simpels graag iets bijzonders. Aan de slag!</p>
 
-
+<div class="receptKnopContainer">
+    <a class="receptKnop" href="recept.php">Bekijk Recepten</a>
+</div>
 
 <?php include 'layouts/footer.php'; ?>
 

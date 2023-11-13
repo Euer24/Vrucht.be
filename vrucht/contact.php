@@ -28,4 +28,5 @@
 
 <?php include 'layouts/footer.php'; ?>
 </body>
+<?php include 'layouts/hamburger.php'; ?>
 </html>

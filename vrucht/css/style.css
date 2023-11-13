@@ -29,7 +29,7 @@ p{
 
 body {
     min-height: 100vh;
-    background: url('/img/background.jpg') no-repeat;
+    background: url('/img/backgroundw.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     
@@ -44,7 +44,7 @@ body {
 
 .receptKnop {
     position: absolute;
-    top: 110%;
+    top: 105%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
