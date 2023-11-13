@@ -17,8 +17,8 @@
         <a href="recepten/recept8.php">Fruitspies</a>
     </div>
 </div>
-            <a href="overons.php">OverOns</a>
-            <a href="contact.php">Contact</a>
+            <a href="../overons.php">OverOns</a>
+            <a href="../contact.php">Contact</a>
         </div>
     </nav>
     <div class="hamburger">

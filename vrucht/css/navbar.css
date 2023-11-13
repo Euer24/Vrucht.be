@@ -13,13 +13,19 @@
    
 }
 
+header .logo
+{
+    
+    margin-left: 55px;/* logo naar links */
+}
+
 .logo {
     font-size: 32px;
     color: #fff;
     text-decoration: none;
     height: auto;
     width: 70px;
-    margin-right: 180px;
+    margin-right: 130px;
 }
 
 .navbar {
