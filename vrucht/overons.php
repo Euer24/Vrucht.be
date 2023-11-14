@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/overons.css">
 </head>
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/functions/seo.php'; ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/public/functions/seo.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 
 <div class="image-row">
