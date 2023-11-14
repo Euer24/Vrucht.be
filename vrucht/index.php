@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Fruit, Blog, recepten">
-    <meta name="description" content="Gratis recepten voor fruit gerechten">
-    <title>Home</title>
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/slider.css">
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/navbar.css">
+    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/style.css">
+    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/slider.css">
+    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/home.css">
 </head>
 <body>
-    
-<?php include 'layouts/navbar.php'; ?>
+
+
+<?php  include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 
 <div class="slideshow-container">
 
-
-<div class="mySlides fade" style="background-image: url('img/home1.jpg'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home1.jpg'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">Mango Smoothie <p>Een lekkere smoothie voor een gezonde start van de dag!</p></a>
-    
 </div>
 
-<div class="mySlides fade" style="background-image: url('img/home2.jpg'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home2.jpg'); background-size: cover; background-position: center;">
 <a href="/recepten/recept2" class="text">Fruit blokjes<p>Lekker voor in de zomer</p></a>
 </div>
 
-<div class="mySlides fade" style="background-image: url('img/home3.jpg'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home3.jpg'); background-size: cover; background-position: center;">
 <a href="/recepten/recept3" class="text">mango salade<p>Erg gezond</p></a>
 </div>
-
-  
-  
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
@@ -53,7 +44,7 @@
     <a class="receptKnop" href="recept.php">Bekijk Recepten</a>
 </div>
 
-<?php include 'layouts/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 
 
 </body>
@@ -61,12 +52,12 @@
     let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// volgende/vorige controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -87,5 +78,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-<?php include 'layouts/hamburger.php'; ?>
+<?php include  $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
 </html>

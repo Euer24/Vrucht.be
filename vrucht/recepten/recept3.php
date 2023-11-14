@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fruit, Blog, recepten, Fruitrecepten, Mangosalade">
+    <meta name="description" content="Een lekkere Mangosalade recept">
     <title>fruit ijs</title>
     <link rel="stylesheet" href="../css/flexbox.css">
     <link rel="stylesheet" href="../css/fruit.css">

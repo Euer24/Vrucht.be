@@ -13,7 +13,8 @@ footer {
     background-color: rgb(206, 58, 14);
     color: white;
     padding: 10px;
-    height: 120px;
+    height: auto;
+    min-height: 120px; 
     padding-left: 20px; 
     margin-top: auto; 
     width: 100%;
@@ -23,7 +24,7 @@ footer ul {
     display: flex;
     list-style: none;
     padding: 0;
-    margin-left: 110px;
+    margin-left: 20px;
 }
 
 footer a {
@@ -33,11 +34,15 @@ footer a {
     text-decoration: none;
 }
 
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
 .footer-images {
     display: flex;
     justify-content: space-between;
     height: auto;
-    margin-right: 60px;
+    margin-right: 20px;
     margin-top: 80px;
 }
 
@@ -49,7 +54,7 @@ footer a {
 
 footer img.logo {
     width: 40px; 
-    margin-right: 20px;
+    margin-left: 50px;
 }
 
 /* Responsive styles */

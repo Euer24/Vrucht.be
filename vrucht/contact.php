@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/contact.css">
     <title>Contact</title>
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/contact.css">
-    <?php include 'layouts/head.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
 </head>
-<title>Contact</title>
 <body>
-<?php include 'layouts/navbar.php'; ?>
+<?php  include $_SERVER['DOCUMENT_ROOT'] . '/public/functions/seo.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 <h1>Contact</h1>
 
+<?php  say(); ?>
 <p>Wilt u contact opnememen met ons?</p>
 <p class = "last-p">Vul dan AUB het formulier in.</p>
 
 <form action="_send.php" method="post" id="contact-form">
-    <label for="name">Name:</label>
+    <label for="name">Naam:</label>
     <input type="text" id="name" name="name" required>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
@@ -25,8 +23,8 @@
     <textarea id="opmerking" name="opmerking" required></textarea>
     <input type="submit" value="Submit">
 </form>
-
-<?php include 'layouts/footer.php'; ?>
+<br><br><br>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
 </body>
-<?php include 'layouts/hamburger.php'; ?>
 </html>

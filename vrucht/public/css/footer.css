@@ -1,4 +1,4 @@
-/* Footer */
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +13,8 @@ footer {
     background-color: rgb(206, 58, 14);
     color: white;
     padding: 10px;
-    height: 120px;
+    height: auto;
+    min-height: 120px; 
     padding-left: 20px; 
     margin-top: auto; 
     width: 100%;
@@ -23,7 +24,7 @@ footer ul {
     display: flex;
     list-style: none;
     padding: 0;
-    margin-right: 80px;
+    margin-left: 20px;
 }
 
 footer a {
@@ -31,14 +32,17 @@ footer a {
     margin: 0 10px;
     padding: 5px 3px;
     text-decoration: none;
-    
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
 }
 
 .footer-images {
     display: flex;
     justify-content: space-between;
     height: auto;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 80px;
 }
 
@@ -49,12 +53,10 @@ footer a {
 }
 
 footer img.logo {
-    width: 70px; 
+    width: 40px; 
     margin-left: 50px;
 }
-.footer-tekst {
-    margin-left: 50px; 
-}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     footer {
@@ -79,7 +81,9 @@ footer img.logo {
 }
 
 footer{
-    margin-top: 130px;
+    margin-top: 60px;
     width: 100%;
   }
 /* einde Footer */
+
+

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fruit, Blog, recepten, Fruitrecepten, fruitshake">
+    <meta name="description" content="Een lekkere fruit shake recept">
     <title>fruit shake</title>
     <link rel="stylesheet" href="../css/flexbox.css">
     <link rel="stylesheet" href="../css/fruit.css">

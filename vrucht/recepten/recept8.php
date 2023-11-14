@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fruit, Blog, recepten, Fruitrecepten, Fruitspies">
+    <meta name="description" content="Een lekker recept voor een Fruitspies">
     <title>Document</title>
     <link rel="stylesheet" href="../css/flexbox.css">
     <link rel="stylesheet" href="../css/fruit.css">
