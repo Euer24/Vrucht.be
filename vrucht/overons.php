@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Fruit, Blog, recepten, Fruitrecepten">
-    <meta name="description" content="Lees de historie van de eigenaar van vrucht">
-    <title>Overons</title>
+    <link rel="stylesheet" href="/public/css/overons.css">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
-    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/overons.css">
 </head>
 <body>
-<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/public/functions/seo.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
+
+
 
 <div class="image-row">
 <div class="background-image" style="background-image: url('<?php  $_SERVER['DOCUMENT_ROOT']; ?>/public/img/people1.jpg');"></div>

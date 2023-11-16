@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/navbar.css">
-    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/style.css">
-    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/slider.css">
-    <link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/home.css">
+    <link rel="stylesheet" href=" /public/css/slider.css">
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
 </head>
 <body>
-
-
-<?php  include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 
 <div class="slideshow-container">
 
@@ -44,7 +39,7 @@
     <a class="receptKnop" href="recept.php">Bekijk Recepten</a>
 </div>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
+
 
 
 </body>
@@ -56,7 +51,6 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -79,4 +73,5 @@ function showSlides(n) {
 }
 </script>
 <?php include  $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 </html>

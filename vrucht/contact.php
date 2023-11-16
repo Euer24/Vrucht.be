@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/css/contact.css">
-    <title>Contact</title>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
+<link rel="stylesheet" href="/public/css/contact.css">
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
 </head>
+
 <body>
-<?php  include $_SERVER['DOCUMENT_ROOT'] . '/public/functions/seo.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 <h1>Contact</h1>
 
-<?php  say(); ?>
+
 <p>Wilt u contact opnememen met ons?</p>
 <p class = "last-p">Vul dan AUB het formulier in.</p>
 
-<form action="_send.php" method="post" id="contact-form">
+<form action="/public/functions/_send.php" method="post" id="contact-form">
     <label for="name">Naam:</label>
     <input type="text" id="name" name="name" required>
     <label for="email">Email:</label>

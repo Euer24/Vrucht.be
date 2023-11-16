@@ -1,5 +1,5 @@
 <header class="header">
-    <a href="/"><img src="<?php $_SERVER['DOCUMENT_ROOT'] ?> /public/img/logo.png" class="logo" alt="logo"></a>
+    <a href="/"><img src="/public/img/VRUCHT.svg" class="logo" alt="logo"></a>
     <nav class="navbar">
         <div class="links-container">
             <a href="/">Home</a>

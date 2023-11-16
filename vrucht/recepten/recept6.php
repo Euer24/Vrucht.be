@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Fruit, Blog, recepten, Fruitrecepten, Watermeloen shake">
-    <meta name="description" content="Een lekkere fruit Watermeloen shake">
-    <title>fruit ijs</title>
-    <link rel="stylesheet" href="../css/flexbox.css">
-    <link rel="stylesheet" href="../css/fruit.css">
-    <?php include '../layouts/head.php'; ?>
-    
+    <meta name="description" content="Een lekkere fruit shake recept">
+    <title>watermaloen shake</title>
+    <link rel="stylesheet" href="/public/css/flexbox.css">
+    <link rel="stylesheet" href=./public/css/fruit.css">
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
 </head>
 <body>
-<?php include '../namen.php'; ?>
-<?php include '../layouts/recept-navbar.php'; ?>s
 
-<a href="../recept.php" class="button">Ga Terug</a>
+
+
+<a href="/recept.php" class="button">Ga Terug</a>
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="../img/img6.jpg">
+        <img src="/public/img/img6.jpg">
         <p>Mmm, een heerlijke Mangosmoothie met amandelmelk en framboos. Extra romig door de banaan die er ook in zit.</p>
     </div>
 
@@ -38,8 +36,8 @@
         </div>
     </div>
     
-        <?php include '../layouts/recept.footer.php'; ?>
-        <?php include '../layouts/hamburger.php' ?>
-   
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
+
 </body>
 </html>
