@@ -16,7 +16,7 @@ p{
     text-align: center;max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    
+    font-size: large;
 }
 
 *
@@ -29,13 +29,10 @@ p{
 
 body {
     min-height: 100vh;
-    background: url('/img/backgroundw.jpg') no-repeat;
+    background: url('/public/img/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
-
-
 
 .receptKnopContainer
 {
@@ -49,29 +46,29 @@ body {
     transform: translate(-50%, -50%);
     display: block;
     padding: 10px 20px; 
-    background-color: rgb(109, 69, 10);
+    background-color: rgb(238, 200, 145);
     color: white;
     border: none; 
     cursor: pointer; 
     text-decoration: none; 
     text-align: center;
-    font-size: 16px; 
+    font-size: 20px; 
     transition: background-color 0.3s ease; 
 }
 
 .receptKnop:hover {
-    background-color: rgb(73, 47, 7);
+    background-color: rgb(231, 180, 108);
 }
 
 .receptKnopContainer
 {
-    margin-top: 200px;
+ margin-top: 200px;
 }
 
-
-    .icon {
-        margin-right: 20px; 
-    }
+.icon
+{
+  margin-right: 20px; 
+}
 
 
    

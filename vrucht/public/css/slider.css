@@ -18,9 +18,8 @@
   width: auto; 
 }
 
-
-  .mySlides {
-    display: none;
+.mySlides {
+  display: none;
   }
   
   /* Next & previous buttons */
@@ -52,7 +51,7 @@
   
   /* Slider text */
   .text {
-    color: #000000;
+    color: rgb(46, 43, 43);
     font-size: 30px;
     padding: 0px 12px;
     position: absolute;
@@ -90,3 +89,7 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+.slide-text{
+color: rgb(46, 43, 43);
+}

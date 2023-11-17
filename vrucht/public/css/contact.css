@@ -29,3 +29,10 @@ input[type="submit"]:hover {
     background-color: rgb(73, 47, 7);
 }
 
+
+
+.contact-text {
+    height: auto;
+    flex-direction: column;
+    margin-left: 1100px;
+}

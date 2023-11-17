@@ -10,16 +10,16 @@ body {
 
 .recept-container {
     width: 100%;
-    max-width: 1200px; 
+    max-width: 2000px; 
     margin: 0 auto; 
-    background-color: #f0c097;
+    background-color: rgb(241, 214, 174);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
 }
 
 .recept-container img {
-    width: 100%;
+    width: 30%;
     height: auto; 
 }
 
@@ -58,8 +58,8 @@ h3 {
 
 .button {
     margin-top: 120px;
-    margin-left: 360px;
-    background-color:rgb(109, 69, 10);
+    margin-left: 0px;
+    background-color:rgb(238, 200, 145);
     border: none;
     color: white;
     padding: 10px 20px;
@@ -73,18 +73,18 @@ h3 {
 
 .button:hover {
     background-color:  
-    rgb(73, 47, 7);
+    rgb(231, 180, 108);
 }
-
 
 .image-text-container {
     display: flex;
-    gap: 20px; 
+    gap: 0px; 
     align-items: center;
 }
 
 .image-text-container img, .image-text-container p {
-    width: 100%;
+    width: 40%;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -92,7 +92,12 @@ h3 {
         flex-direction: column;
         text-align: center;
     }
+    
     .button{
         margin-left: 10px;
+    }
+
+    .image-text-container img, .image-text-container p {
+        width: 100%;
     }
 }

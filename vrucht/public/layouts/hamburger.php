@@ -24,22 +24,20 @@
     window.addEventListener('resize', checkNavbar);
     window.addEventListener('load', checkNavbar);
 
-
-
-document.querySelector('.dropdown-button').addEventListener('click', function (event) {
-    event.preventDefault();
-    var dropdownContent = document.querySelector('.dropdown-content');
-    dropdownContent.classList.toggle('show');
-    if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
-        dropdownContent.style.display = "block";
-        setTimeout(function() {
-            dropdownContent.style.opacity = "1";
-        }, 50);
-    } else {
-        dropdownContent.style.opacity = "0";
-        setTimeout(function() {
-            dropdownContent.style.display = "none";
-        }, 500);
-    }
+    document.querySelectorAll('.dropdown-toggle, .dropdown-button').forEach(function(element) {
+    element.addEventListener('click', function (event) {
+        var dropdownContent = document.querySelector('.dropdown-content');
+        if (dropdownContent.style.display === "block") {
+            // If the dropdown is already visible, allow the default click action to occur
+            return true;
+        } else {
+            // If the dropdown is not visible, show it and prevent the default click action
+            event.preventDefault();
+            dropdownContent.style.display = "block";
+            setTimeout(function() {
+                dropdownContent.style.opacity = "1";
+            }, 50);
+        }
+    });
 });
 </script>

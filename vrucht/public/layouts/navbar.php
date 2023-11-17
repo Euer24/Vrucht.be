@@ -5,7 +5,6 @@
             <a href="/">Home</a>
             <div class="dropdown">
     <a href="/recept" class="dropdown-toggle">Recepten</a>
-    <a href="#" class="dropdown-button">&#9660;</a>
     <div class="dropdown-content">
     <a href="/recepten/recept1">Mangosmoothie</a>
         <a href="/recepten/recept2">Fruitijs</a>

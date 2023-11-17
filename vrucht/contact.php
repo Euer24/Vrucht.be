@@ -8,9 +8,14 @@
 <body>
 <h1>Contact</h1>
 
-
 <p>Wilt u contact opnememen met ons?</p>
 <p class = "last-p">Vul dan AUB het formulier in.</p>
+
+
+<p class = "contact-text">Bluebirdlaan 12 </p>
+<p class = "contact-text">2471RG Ohio </p>
+<p class = "contact-text">06-36112472 </p>
+
 
 <form action="/public/functions/_send.php" method="post" id="contact-form">
     <label for="name">Naam:</label>

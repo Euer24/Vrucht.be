@@ -7,8 +7,6 @@
 </head>
 <body>
 
-
-
 <a href="/recept.php" class="button">Ga Terug</a>
 
 <div class="recept-container">
@@ -19,7 +17,7 @@
 
         <div class="colum">
 
-        <h1> <?php echo "$recept1"; ?></h1>
+        <h1>Fruitshake</h1>
 
         <h2>ingrediënten</h2>
         
@@ -31,9 +29,7 @@
         <p class="bereiding">Laat het fruit ca. 5 min. ontdooien. Pers ondertussen de perssinaasappels uit. Snijd de bananen in stukjes. Pureer al het fruit, het sinaasappelsap en de yoghurt in een blender of in een hoge kom met een staafmixer. Verdeel de smoothie over hoge glazen. Steek er rietjes in en serveer direct.</p>
         </div>
     </div>
-    
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
-
 </body>
 </html>
