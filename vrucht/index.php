@@ -40,8 +40,6 @@
 </div>
 
 
-
-
 </body>
 <script>
     let slideIndex = 1;

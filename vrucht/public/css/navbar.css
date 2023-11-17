@@ -34,7 +34,7 @@ header .logo
     font-weight: 500;
     text-decoration: none;
     height: 60px;
-    padding-right: 560px;
+    padding-right: 550px;
     display: flex;
     justify-content: center; 
     width: 100%; 
@@ -43,10 +43,10 @@ header .logo
 .navbar a
 {
     font-size: 18px;
-    color: #fff;
+    color: #000000;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .navbar a:hover
@@ -82,7 +82,7 @@ header .logo
 .hamburger div {
     width: 2rem;
     height: 0.25rem;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 .navbar.open {
@@ -123,7 +123,7 @@ header .logo
     .navbar {
         display: none;
         flex-direction: column;
-        background-color: #fff; 
+        background-color: #000000; 
     }
     .navbar.open {
         display: block;
@@ -157,15 +157,13 @@ header .logo
         width: 300px;
 }
 
-    .dropdown-content{
-        
-}
+   
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-    color: #fff; 
+    color: #000000; 
 }
 
 .dropdown-content {
@@ -185,7 +183,7 @@ header .logo
     opacity: 1; 
 }
 .dropdown-content a {
-    color: #fff; 
+    color: #000000; 
     padding: 16px 8px;
     text-decoration: none;
     display: block;

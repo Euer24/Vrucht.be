@@ -49,7 +49,7 @@ body {
     transform: translate(-50%, -50%);
     display: block;
     padding: 10px 20px; 
-    background-color: rgb(179, 92, 21); 
+    background-color: rgb(109, 69, 10);
     color: white;
     border: none; 
     cursor: pointer; 
@@ -60,7 +60,7 @@ body {
 }
 
 .receptKnop:hover {
-    background-color: rgb(109, 69, 10);
+    background-color: rgb(73, 47, 7);
 }
 
 .receptKnopContainer

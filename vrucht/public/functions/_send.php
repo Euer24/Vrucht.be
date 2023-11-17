@@ -2,9 +2,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require'phpmailer/src/Exception.php';
-require'phpmailer/src/PHPMailer.php';
-require'phpmailer/src/SMTP.php';
+require'../../phpmailer/src/Exception.php';
+require'../../phpmailer/src/PHPMailer.php';
+require'../../phpmailer/src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
@@ -22,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'gerritdeslak651@gmail.com';//vul hier je eigen email in
-    $mail->Password = 'jekj rtnh mnhr kkue';//password key
+    $mail->Username = 'gerritdeslak651@gmail.com';//vul hier je eigen email in waarme je wilt verzenden
+    $mail->Password = 'jekj rtnh mnhr kkue';//password key van je gmail account
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 

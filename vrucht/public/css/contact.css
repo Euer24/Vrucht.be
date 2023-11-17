@@ -1,8 +1,8 @@
 form {
     width: 300px;
     margin: 0 auto;
-    margin-top: 100px;
-    padding-bottom: 60px;
+    margin-top: 70px;
+    padding-bottom: 270px;
 }
 label {
     font-weight: bold;
@@ -17,7 +17,7 @@ input[type="text"], input[type="email"], textarea {
     resize: none;
 }
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: rgb(109, 69, 10);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -26,6 +26,6 @@ input[type="submit"] {
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: rgb(73, 47, 7);
 }
 

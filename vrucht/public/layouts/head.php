@@ -1,13 +1,6 @@
 <?php
 function get_meta_data() {
-    $meta_pages = [
-        // Your pages here
-    ];
-
-    $base_meta = [
-        // Your base meta data here
-    ];
-
+    include $_SERVER['DOCUMENT_ROOT'] . '/public/functions/seo.php';
     $current_page = basename($_SERVER['PHP_SELF'], '.php');
     return isset($meta_pages[$current_page]) ? $meta_pages[$current_page] : $base_meta;
 }
@@ -25,7 +18,7 @@ function get_meta_data() {
 $meta_data = get_meta_data();
 ?>
 
-<title><?php echo $meta_data['page_title']; ?> | Middag vloerverwarming</title>
+<title><?php echo $meta_data['page_title']; ?> </title>
 <?php foreach ($meta_data['meta'] as $name => $content): ?>
 <meta name="<?php echo $name; ?>" content="<?php echo $content; ?>">
 <?php endforeach; ?>

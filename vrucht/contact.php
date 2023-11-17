@@ -21,7 +21,7 @@
     <textarea id="opmerking" name="opmerking" required></textarea>
     <input type="submit" value="Submit">
 </form>
-<br><br><br>
+
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
 </body>

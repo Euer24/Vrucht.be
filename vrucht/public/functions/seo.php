@@ -1,5 +1,4 @@
 <?php
-
 /*
     The SEO for this site works as following
 
@@ -19,22 +18,20 @@
 */
 
 
-
 $meta_pages = [
     'index' => [
-        'page_title' => 'Home', // This will prefix the browser tab with "${value}
+        'page_title' => 'Home|Een blog over vrucht recepten', 
         'meta' => [
             'description' => 'De Home pagina van Vrucht',
             'keywords' => 'home, fruit',
-        ], // For any meta tag you want where the key is the name and the value the content
+        ], 
         'open_graph' => [
             'og:title' => 'Home',
             'og:description' => 'Home pagina description.',
             'og:image' => '/public/img/VRUCHT.svg',
-        ], // For any OG tag you want where the key is the property and the value the content
+            'og:url' => 'http://vrucht.be',
+        ], 
     ],
-
-    
 
     'recept' => [
         'page_title' => 'Recepten',
@@ -43,9 +40,10 @@ $meta_pages = [
             'keywords' => 'Recepten, fruit',
         ],
         'open_graph' => [
-            'og:title' => 'Recept',
+            'og:title' => 'Recepten',
             'og:description' => 'Recept pagina description.',
-            'og:image' => '/public/img/VRUCHT.svg',
+            'og:image' => '/public/img/img1.jpg',
+            'og:url' => 'http://vrucht.be/recept.php',
         ],
     ],
 
@@ -58,7 +56,7 @@ $meta_pages = [
         'open_graph' => [
             'og:title' => 'Over-ons',
             'og:description' => 'Over-ons pagina description.',
-            'og:image' => '/public/img/VRUCHT.svg',
+            'og:image' => '/public/img/people.1jpg',
         ],
     ],
 
@@ -77,21 +75,23 @@ $meta_pages = [
 ];
 
 
-
-
-
-
-
-
+// de standaard meta data
 $base_meta = [
-    'page_title' => 'Default Title',
-    'meta' => [],
-    'open_graph' => [],
+    'page_title' => 'Vrucht',
+    'meta' => [
+        'description' => 'Een website over fruit',
+        'keywords' => 'fruit, gezond',
+    ],
+    'open_graph' => [
+        'og:title' => 'Vrucht',
+        'og:description' => 'Een website over fruit.',
+        'og:image' => '/public/img/VRUCHT.svg'
+    ],
 ];
 
-// Get the current page name without the .php suffix
+// krijg de huildige pagina
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
 
-// If the current page is in the $meta_pages array, use its meta data
-// Otherwise, use the $base_meta array
+//als de huildige pagina in de $meta_pages array, zit gebruik dan de juiste meta data
+// Anders gebruitk hij de $base_meta array
 $meta_data = isset($meta_pages[$current_page]) ? $meta_pages[$current_page] : $base_meta;
