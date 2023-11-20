@@ -15,7 +15,6 @@
 
 header .logo
 {
-    
     margin-left:15px;/* logo naar links */
 }
 
@@ -138,9 +137,13 @@ header .logo
         display: flex;
         margin-left: 110px;
     }
+    .receptKnop {
+        margin-top: 80px;
+    }
+
 }
 
-@media (max-width: 340px) {
+@media (max-width: 450px) {
     .hamburger {
         transform: translateX(-120px);
     }
@@ -149,20 +152,21 @@ header .logo
     }
 
     .receptKnop {
-       
-        margin-top: 80px;
+        margin-top: 150px;
+
     }
     
     .logo {
         transform: translateX(4px);
         width: 300px;
-}
+    }
 
     .dropdown-content {
-    padding-left: 90px;
-}
+      padding-left: 90px;
+    }
    
 }
+
 
 .dropdown {
     position: relative;

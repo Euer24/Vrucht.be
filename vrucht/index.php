@@ -8,19 +8,19 @@
 
 <div class="slideshow-container">
 
-<div class="mySlides fade" style="background-image: url('/public/img/home1.jpg'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home1_50.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">Mango Smoothie <p class = "slide-text">Voor een gezonde start van de dag!</p></a>
 </div>
 
-<div class="mySlides fade" style="background-image: url('/public/img/home2.jpg'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home2_50.webp'); background-size: cover; background-position: center;">
 <a href="/recepten/recept2" class="text">Fruit blokjes<p class = "slide-text">Lekker voor in de zomer.</p></a>
 </div>
 
-<div class="mySlides fade" style="background-image: url('/public/img/home3.jpg'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home3_50.webp'); background-size: cover; background-position: center;">
 <a href="/recepten/recept3" class="text">mango salade<p class = "slide-text">Erg gezond en goed voor je.</p></a>
 </div>
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <p class="prev" onclick="plusSlides(-1)">&#10094;</p>
+  <p class="next" onclick="plusSlides(1)">&#10095;</p>
 </div>
 <br>
 
@@ -36,7 +36,7 @@
 <p>je vindt hier lekkere, snelle en echt makkelijke recepten voor elke dag. Wij laten zien dat je elke dag lekker kan eten en dat dit helemaal niet ingewikkeld hoeft te zijn. Met een handvol ingrediënten kan je al snel iets lekkers maken. En met een kleine twist maken we van iets simpels graag iets bijzonders. Aan de slag!</p>
 
 <div class="receptKnopContainer">
-    <a class="receptKnop" href="recept.php">Bekijk Recepten</a>
+    <a class="receptKnop" href="/recept">Bekijk Recepten</a>
 </div>
 
 </body>

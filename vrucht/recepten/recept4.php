@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Een lekkere fruit shake recept">
-    <title>fruit yoghurt</title>
     <link rel="stylesheet" href="/public/css/flexbox.css">
     <link rel="stylesheet" href="/public/css/fruit.css">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
 </head>
 <body>
 
-<a href="/recept.php" class="button">Ga Terug</a>
+<a href="/recept" class="button">Ga Terug</a>
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="/public/img/img4.jpg">
+        <img src="/public/img/img1.webp">
         <p>Mmm, een heerlijke Mangosmoothie met amandelmelk en framboos. Extra romig door de banaan die er ook in zit.</p>
     </div>
 
         <div class="colum">
 
-        <h1> <?php echo "$recept4"; ?></h1>
+        <h1>Fruit Yogurt</h1>
 
         <h2>ingrediënten</h2>
         

@@ -7,11 +7,11 @@
 </head>
 <body>
 
-<a href="/recept.php" class="button">Ga Terug</a>
+<a href="/recept" class="button">Ga Terug</a>
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="/public/img/img1.jpg">
+        <img src="/public/img/img1.webp">
         <p>Mmm, een heerlijke Mangosmoothie met amandelmelk en framboos. Extra romig door de banaan die er ook in zit.</p>
     </div>
 

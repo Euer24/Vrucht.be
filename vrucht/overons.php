@@ -6,9 +6,9 @@
 </head>
 <body>
 <div class="image-row">
-<div class="background-image" style="background-image: url('<?php  $_SERVER['DOCUMENT_ROOT']; ?>/public/img/people1.jpg');"></div>
-<div class="background-image" style="background-image: url('<?php  $_SERVER['DOCUMENT_ROOT']; ?>/public/img/people2.jpg');"></div>
-<div class="background-image" style="background-image: url('<?php  $_SERVER['DOCUMENT_ROOT']; ?>/public/img/people3.jpg');"></div>
+<div class="background-image" style="background-image: url('/public/img/people1.webp');"></div>
+<div class="background-image" style="background-image: url('/public/img/people2.webp');"></div>
+<div class="background-image" style="background-image: url('/public/img/people3.webp');"></div>
 </div>
 
 <h1>Over ons</h1>

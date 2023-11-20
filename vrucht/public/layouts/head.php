@@ -9,7 +9,7 @@ function get_meta_data() {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" href="/public/img/logo.png">
+<link rel="icon" href="/public/img/VRUCHT.svg">
 <link rel="stylesheet" href="/public/css/navbar.css">
 <link rel="stylesheet" href="/public/css/style.css">
 <link rel="stylesheet" href="/public/css/footer.css">
@@ -28,4 +28,4 @@ $meta_data = get_meta_data();
 
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/functions/namen.php';?>
+

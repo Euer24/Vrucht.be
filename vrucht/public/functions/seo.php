@@ -26,14 +26,14 @@ $meta_pages = [
             ], 
         'open_graph' => [
             'og:description' => 'De Home pagina van Vrucht',
-            'og:image' => 'http://vrucht.be/public/img/people1.jpg',
+            'og:image' => 'http://vrucht.be/public/img/people1.webp',
             'og:url' => 'http://vrucht.be',
         ], 
         'twitter' => [
             'twitter:card' => 'summary', 
             'twitter:title' => 'Home | Een blog over vrucht recepten',
             'twitter:description' => 'De Home pagina van Vrucht',
-            'twitter:image' => 'http://vrucht.be/public/img/people1.jpg',
+            'twitter:image' => 'http://vrucht.be/public/img/people1.webp',
         ], 
     ],
     
@@ -41,11 +41,11 @@ $meta_pages = [
         'page_title' => 'Recepten | Fruitshake | Mangosalade',
         'meta' => [
             'title' => 'Recepten | Fruitshake | Mangosalade',
-            'keywords' => 'Recepten, fruit',
+            'description' => 'De Recepten pagina van Vrucht',
         ],
         'open_graph' => [
             'og:description' => 'Lekkeren fruit recepten',
-            'og:image' => '/public/img/img1.jpg',
+            'og:image' => '/public/img/img1.webp',
             'og:url' => 'http://vrucht.be/recept.php',
         ],
 
@@ -53,7 +53,7 @@ $meta_pages = [
             'twitter:card' => 'summary', 
             'twitter:title' => 'Recepten | Fruitshake | Mangosalade',
             'twitter:description' => 'De Recepten pagina van Vrucht',
-            'twitter:image' => 'http://vrucht.be/public/img/img1.jpg',
+            'twitter:image' => 'http://vrucht.be/public/img/img1.webp',
         ], 
     ],
 
@@ -65,13 +65,13 @@ $meta_pages = [
         ],
         'open_graph' => [
             'og:description' => 'Recepten | Fruitshake | Mangosalade',
-            'og:image' => '/public/img/people.1jpg',
+            'og:image' => '/public/img/people1.webp',
         ],
         'twitter' => [
             'twitter:card' => 'summary', 
             'twitter:title' => 'Over-ons | Een Beetje informatie over ons',
             'twitter:description' => 'Over-ons pagina van Vrucht',
-            'twitter:image' => 'http://vrucht.be/public/img/people1.jpg',
+            'twitter:image' => 'http://vrucht.be/public/img/people1.webp',
         ], 
     ],
 
@@ -83,13 +83,13 @@ $meta_pages = [
         ],
         'open_graph' => [
             'og:description' => 'contact pagina description.',
-            'og:image' => '/public/img/VRUCHT.svg',
+            'og:image' => '/public/img/people2.webp',
         ],
         'twitter' => [
             'twitter:card' => 'summary', 
             'twitter:title' => 'contact | Neem contact met ons op',
             'twitter:description' => 'contact pagina van Vrucht',
-            'twitter:image' => 'http://vrucht.be/public/img/people3.jpg',
+            'twitter:image' => 'http://vrucht.be/public/img/people3.webp',
         ], 
     ],
 ];
@@ -104,13 +104,13 @@ $base_meta = [
     'open_graph' => [
         'og:title' => 'Vrucht | Lekkere recepten voor fruit',
         'og:description' => 'Vrucht | Lekkere recepten voor fruit',
-        'og:image' => '/public/img/img1.jpg',
+        'og:image' => '/public/img/img1.webp',
     ],
     'twitter' => [
         'twitter:card' => 'summary',
         'twitter:title' => 'Vrucht | Lekkere recepten voor fruit',
         'twitter:description' => 'Een website over fruit',
-        'twitter:image' => 'http://vrucht.be/public/img/people3.jpg',
+        'twitter:image' => 'http://vrucht.be/public/img/people3.webp',
     ], 
 ];
 

@@ -11,17 +11,17 @@
 </head>
 <body>
 
-<a href="/recept.php" class="button">Ga Terug</a>
+<a href="/recept" class="button">Ga Terug</a>
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="/public/img/img2.jpg">
+        <img src="/public/img/img2.webp">
         <p>Mmm, een heerlijke Mangosmoothie met amandelmelk en framboos. Extra romig door de banaan die er ook in zit.</p>
     </div>
 
         <div class="colum">
 
-        <h1> <?php echo "$recept1"; ?></h1>
+        <h1>Fruitblok ijs</h1>
 
         <h2>ingrediënten</h2>
         
