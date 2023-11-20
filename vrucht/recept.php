@@ -11,7 +11,6 @@
 
 <div class="flex-container">
     
-
     <div class="flex-item">
         <a href="/recepten/recept1">
             <img src="/public/img/img1.webp" alt="img 9">
@@ -24,7 +23,6 @@
              6-11-2023
         </p>
     </div>
-
     <div class="flex-item">
         <a href="/recepten/recept2">
             <img src="/public/img/img2.webp" alt="img 9">
@@ -37,8 +35,6 @@
              6-11-2023
         </p>
     </div>
-
-
     <div class="flex-item">
         <a href="/recepten/recept3">
             <img src="/public/img/img3.webp" alt="img 9">
@@ -51,7 +47,6 @@
              6-11-2023
         </p>
     </div>
-
     <div class="flex-item">
         <a href="/recepten/recept4">
             <img src="/public/img/img4.webp" alt="img 9">
@@ -64,7 +59,6 @@
         21-10-2023
         </p>
     </div>
-
     <div class="flex-item">
         <a href="/recepten/recept5">
             <img src="/public/img/img5.webp" alt="img 9">
@@ -77,7 +71,6 @@
         6-10-2023
         </p>
     </div>
-
     <div class="flex-item">
         <a href="/recepten/recept6">
             <img src="/public/img/img6.webp" alt="img 9">
@@ -90,7 +83,6 @@
         6-10-2023
         </p>
     </div>
-
     <div class="flex-item">
         <a href="/recepten/recept7">
             <img src="/public/img/img7.webp" alt="img 9">
@@ -103,7 +95,6 @@
         6-10-2023
         </p>
     </div>
-
     <div class="flex-item">
         <a href="/recepten/recept8">
             <img src="/public/img/img8.webp" alt="img 9">
@@ -117,13 +108,8 @@
         </p>
     </div>
 
-
-    
-
-
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
-
 </body>
 </html>
 

@@ -26,6 +26,5 @@ $meta_data = get_meta_data();
 <meta property="<?php echo $property; ?>" content="<?php echo $content; ?>">
 <?php endforeach; ?>
 
-
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 

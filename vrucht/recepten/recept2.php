@@ -13,9 +13,9 @@
 
 <a href="/recept" class="button">Ga Terug</a>
 
-<div class="recept-container">
+<div class="recept-container" >
     <div class="image-text-container">
-        <img src="/public/img/img2.webp">
+        <img src="/public/img/img2.webp" alt = "fruit img">
         <p>Mmm, een heerlijke Mangosmoothie met amandelmelk en framboos. Extra romig door de banaan die er ook in zit.</p>
     </div>
 
@@ -30,6 +30,7 @@
         <p>Handje diepvries bramen - 200ml haverdrank</p>
 
         <h3>Bereiding</h3>
+        
         <p class="bereiding">Laat het fruit ca. 5 min. ontdooien. Pers ondertussen de perssinaasappels uit. Snijd de bananen in stukjes. Pureer al het fruit, het sinaasappelsap en de yoghurt in een blender of in een hoge kom met een staafmixer. Verdeel de smoothie over hoge glazen. Steek er rietjes in en serveer direct.</p>
         </div>
     </div>

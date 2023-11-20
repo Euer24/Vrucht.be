@@ -145,10 +145,10 @@ header .logo
 
 @media (max-width: 450px) {
     .hamburger {
-        transform: translateX(-120px);
+        transform: translateX(-70px);
     }
     .navbar a {
-        padding-left: 90px;
+        padding-left: 80px;
     }
 
     .receptKnop {
@@ -157,16 +157,24 @@ header .logo
     }
     
     .logo {
-        transform: translateX(4px);
-        width: 300px;
+        transform: translateX(25px);
+        width: 200px;
+        height: 70px;
     }
 
     .dropdown-content {
-      padding-left: 90px;
+      padding-left: 80px;
     }
-   
-}
 
+    footer ul li {
+        margin: 8px 0; 
+    }
+
+    .text-container{
+        width: 50%;
+        margin-left: 70px;
+    }
+}
 
 .dropdown {
     position: relative;

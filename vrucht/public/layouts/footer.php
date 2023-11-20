@@ -1,10 +1,10 @@
 <footer>
     <img class="logo" src="/public/img/VRUCHT.svg" alt="Logo"> 
     <ul>
-        <a href="/" class="footer-tekst">Home</a>
-        <a href="/recept" class="footer-tekst">Recepten</a>
-        <a href="/overons" class="footer-tekst">Overons</a>
-        <a href="/contact" class="footer-tekst">Contact</a>
+       <li><a href="/" class="footer-tekst">Home</a></li>
+       <li> <a href="/recept" class="footer-tekst">Recepten</a></li>
+       <li><a href="/overons" class="footer-tekst">Overons</a></li>
+       <li><a href="/contact" class="footer-tekst">Contact</a></li>
     </ul>
     <div class="footer-images">
     <a href="https://www.instagram.com/" aria-label="Instagram">

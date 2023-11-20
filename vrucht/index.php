@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href=" /public/css/slider.css">
+    <link rel="stylesheet" href="/public/css/slider.css">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
 </head>
 <body>
@@ -9,16 +9,35 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade" style="background-image: url('/public/img/home1_50.webp'); background-size: cover; background-position: center;">
-    <a href="/recepten/recept1" class="text">Mango Smoothie <p class = "slide-text">Voor een gezonde start van de dag!</p></a>
+    <a href="/recepten/recept1" class="text">
+        <div class="text-container">
+            Fruit Smoothie
+            <p class="slide-text">Voor een gezonde start van de dag!</p>
+            </div>
+            <button class="slide-button">Bekijk</button>
+    </a>
 </div>
-
 <div class="mySlides fade" style="background-image: url('/public/img/home2_50.webp'); background-size: cover; background-position: center;">
-<a href="/recepten/recept2" class="text">Fruit blokjes<p class = "slide-text">Lekker voor in de zomer.</p></a>
+    <a href="/recepten/recept1" class="text">
+        <div class="text-container">
+            Fruit ijsblokjes
+            <p class="slide-text">Lekker wanneer het warm is.</p>
+            </div>
+            <button class="slide-button">Bekijk</button>
+    </a>
+</div>
+<div class="mySlides fade" style="background-image: url('/public/img/home3_50.webp'); background-size: cover; background-position: center;">
+    <a href="/recepten/recept1" class="text">
+        <div class="text-container">
+            Mango Salade
+            <p class="slide-text">Goed voor je lichaam.</p>
+            </div>
+            <button class="slide-button">Bekijk</button>
+    </a>
 </div>
 
-<div class="mySlides fade" style="background-image: url('/public/img/home3_50.webp'); background-size: cover; background-position: center;">
-<a href="/recepten/recept3" class="text">mango salade<p class = "slide-text">Erg gezond en goed voor je.</p></a>
-</div>
+
+
   <p class="prev" onclick="plusSlides(-1)">&#10094;</p>
   <p class="next" onclick="plusSlides(1)">&#10095;</p>
 </div>
