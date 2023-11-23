@@ -152,7 +152,7 @@ header .logo
     }
 
     .receptKnop {
-        margin-top: 150px;
+        margin-bottom: 70px;
 
     }
     
@@ -170,10 +170,7 @@ header .logo
         margin: 8px 0; 
     }
 
-    .text-container{
-        width: 50%;
-        margin-left: 70px;
-    }
+    
 }
 
 .dropdown {

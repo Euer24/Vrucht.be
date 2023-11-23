@@ -2,22 +2,43 @@ h1{
 color: black;
 margin-top: 140px;
 text-align: center;
+font-size: 50px
 }
 
-h2{
+h2, h3, h4{
     color: black;
-    margin-top: 100px;
-    text-align: center;
-    }
+   margin-top: 100px;
+   text-align: center;
+     font-size: 40px
+   }
 
-p{
+   p{
     color: black;
     margin-top: 20px;
     text-align: center;max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     font-size: large;
+    font-size: 25px;
 }
+
+@media (max-width: 768px) {
+
+    h1 {
+      font-size: 38px;
+      line-height: 1.5;
+    }
+
+    h2, h3, h4{
+      font-size: 30px;
+      line-height: 1.5;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+  }
 
 *
 {
@@ -34,14 +55,11 @@ body {
     background-position: center;
 }
 
-.receptKnopContainer
-{
-    margin-top: 20px;
-}
+
 
 .receptKnop {
     position: absolute;
-    top: 105%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
@@ -62,7 +80,7 @@ body {
 
 .receptKnopContainer
 {
- margin-top: 200px;
+ margin-top: 300px;
 }
 
 .icon

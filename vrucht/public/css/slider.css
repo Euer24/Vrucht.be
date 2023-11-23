@@ -30,9 +30,9 @@
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: rgb(231, 180, 108);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -52,7 +52,7 @@
   /* Slider text */
   .text {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 90px;
     padding: 0px 12px;
     position: absolute;
     bottom: 8px;
@@ -61,7 +61,6 @@
     font-weight: bold;
     text-decoration: none;
   }
-  
   
   /* de 3 bolletjes onder de slideshow */
   .dot {
@@ -81,7 +80,6 @@
     background-color: #717171;
   }
   
-  
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -94,7 +92,6 @@
 
 .slide-text{
 color: rgb(255, 255, 255);
-
 margin-bottom: 30px;
 }
 
@@ -103,14 +100,17 @@ margin-bottom: 30px;
   background-color: rgb(238, 200, 145);
 }
 
+/* Bekijk  button  */
 .slide-button {
-  margin-bottom:160px;
+  margin-top: 10px;
+  margin-bottom:100px;
   padding: 10px 20px;
   cursor: pointer; 
   font-size: 20px; 
   transition: background-color 0.3s ease; 
   background-color: rgb(231, 180, 108);
   text-align: center;
+  border-radius: 6px;
   border: none;
 }
 
@@ -118,9 +118,34 @@ margin-bottom: 30px;
   background-color: rgb(225, 157, 61);
 }
 
-.text-container{
-  background-color: rgb(231, 180, 108);
+/* Recept naam grote van de tekst  */
+.slide-recept{
+  font-size: 48px;
+}
+
+/* Recept tekst  */
+.text-container {
+  text-shadow: 2px 2px 4px #717171; 
+  font-size: 18px; 
+  line-height: 1.5;
   width: 40%;
   margin-left: 30%;
   text-align: center;
- }
+  border-radius: 20px;
+}
+
+@media (min-width: 320px) {
+  .text-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .slide-recept{
+    font-size: 40px;
+  }
+  .slide-text{
+    font-size: 25px;
+  }
+}
+

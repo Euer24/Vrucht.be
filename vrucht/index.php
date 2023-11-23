@@ -11,8 +11,8 @@
 <div class="mySlides fade" style="background-image: url('/public/img/home1_50.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">
         <div class="text-container">
-            Fruit Smoothie
-            <p class="slide-text">Voor een gezonde start van de dag!</p>
+            <div class="slide-recept">Fruit Smoothie</div>
+            <p class="slide-text">Voor een gezonde dag!</p>
             </div>
             <button class="slide-button">Bekijk</button>
     </a>
@@ -20,7 +20,7 @@
 <div class="mySlides fade" style="background-image: url('/public/img/home2_50.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">
         <div class="text-container">
-            Fruit ijsblokjes
+          <div class="slide-recept">Fruit Blokjes</div>
             <p class="slide-text">Lekker wanneer het warm is.</p>
             </div>
             <button class="slide-button">Bekijk</button>
@@ -29,7 +29,7 @@
 <div class="mySlides fade" style="background-image: url('/public/img/home3_50.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">
         <div class="text-container">
-            Mango Salade
+        <div class="slide-recept">Mango Salade</div>
             <p class="slide-text">Goed voor je lichaam.</p>
             </div>
             <button class="slide-button">Bekijk</button>

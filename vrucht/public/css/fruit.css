@@ -1,18 +1,9 @@
-body {
-    min-height: 100vh;
-    background: url('/img/background.webp') no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif; 
-    color: #333; 
-    line-height: 1.6;
-}
 
 .recept-container {
     width: 100%;
     max-width: 2000px; 
     margin: 0 auto; 
-    background-color: rgb(241, 214, 174);
+    background-color: clear; /*rgb(241, 214, 174);*/
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
@@ -30,11 +21,13 @@ body {
 
 p {
     text-align: center;
+    font:size 100px;
 }
 
 .bereiding {
     text-align: center;
-    max-width: 500px;
+    max-width: 700px;
+    font:size 50px;
 }
 
 h1,h2 {
@@ -42,6 +35,7 @@ h1,h2 {
     color: #333; 
     text-align: center;
     line-height: 0.5;
+    font:size 50px;
 }
 
 h3 {
@@ -49,10 +43,11 @@ h3 {
     color: #333; 
     text-align: center;
     line-height: 1.5;
+    font:size 50px;
 }
 
 .colum {
-    border: 1px solid #000;
+    
     padding: 10px;
 }
 
@@ -72,8 +67,7 @@ h3 {
 }
 
 .button:hover {
-    background-color:  
-    rgb(231, 180, 108);
+    background-color:rgb(231, 180, 108);
 }
 
 .image-text-container {
@@ -100,4 +94,17 @@ h3 {
     .image-text-container img, .image-text-container p {
         width: 100%;
     }
+
+    .bereiding {
+        max-width: 500px;
+    }
+    
+}
+
+@media (min-width:1000px) {
+
+    h1{
+        margin-left: 250px;
+    }
+
 }

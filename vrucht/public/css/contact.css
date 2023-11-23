@@ -20,7 +20,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    background-color: rgb(231, 180, 108);
+    background-color: rgb(238, 200, 145);
     color: rgb(0, 0, 0);
     padding: 14px 20px;
     margin: 8px 0;
@@ -30,7 +30,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(225, 157, 61);
+    background-color: rgb(224, 163, 77);
 }
 
 .contact-text {

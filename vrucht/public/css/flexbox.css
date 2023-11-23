@@ -6,7 +6,7 @@
   }
   
   .flex-container > .flex-item {
-    background-color:rgb(238, 200, 145);
+    background-color: clear;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -17,7 +17,7 @@
   
 
   .flex-container > .flex-item:hover {
-  background-color: rgb(237, 186, 115);
+  background-color: rgb(238, 200, 145);
   text-decoration: underline;
   transition: 1s;
 
