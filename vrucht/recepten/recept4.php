@@ -15,7 +15,7 @@
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="/public/img/img1.webp" alt = "fruit img">
+        <img src="/public/img/img4.webp" alt = "fruit img">
     <h1>Frisse Meloen-Munt Salade</h1>
 
     </div>

@@ -28,7 +28,7 @@
             <img src="/public/img/img2.webp" alt="img 9">
         </a>
         <a href="/recepten/recept2" class="titel">
-            Fruitblok ijs
+                 Passievrucht en Mango
         </a>
         <br>
         <p>
@@ -40,7 +40,7 @@
             <img src="/public/img/img3.webp" alt="img 9">
         </a>
         <a href="/recepten/recept3" class="titel">
-            Mangosalade
+             Bosbessen-Havermout Muffins
         </a>
         <br>
         <p>
@@ -52,7 +52,7 @@
             <img src="/public/img/img4.webp" alt="img 9">
         </a>
         <a href="/recepten/recept4" class="titel">
-            Fruit Yogurt
+            Frisse Meloen-Munt Salade
         </a>
         <br>
         <p>

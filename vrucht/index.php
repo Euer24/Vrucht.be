@@ -8,29 +8,29 @@
 
 <div class="slideshow-container">
 
-<div class="mySlides fade" style="background-image: url('/public/img/home1_50.webp'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home1.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">
         <div class="text-container">
-            <div class="slide-recept">Fruit Smoothie</div>
+            <div class="slide-recept">Fruit Shake</div>
             <p class="slide-text">Voor een gezonde dag!</p>
             </div>
             <button class="slide-button">Bekijk</button>
     </a>
 </div>
-<div class="mySlides fade" style="background-image: url('/public/img/home2_50.webp'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home2.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">
         <div class="text-container">
-          <div class="slide-recept">Fruit Blokjes</div>
-            <p class="slide-text">Lekker wanneer het warm is.</p>
+          <div class="slide-recept">Cheesecake</div>
+            <p class="slide-text">Zoet en erg goed!</p>
             </div>
             <button class="slide-button">Bekijk</button>
     </a>
 </div>
-<div class="mySlides fade" style="background-image: url('/public/img/home3_50.webp'); background-size: cover; background-position: center;">
+<div class="mySlides fade" style="background-image: url('/public/img/home3.webp'); background-size: cover; background-position: center;">
     <a href="/recepten/recept1" class="text">
         <div class="text-container">
-        <div class="slide-recept">Mango Salade</div>
-            <p class="slide-text">Goed voor je lichaam.</p>
+        <div class="slide-recept">Bosbessen-Havermout Muffins</div>
+            <p class="slide-text">Een fruitige snack.</p>
             </div>
             <button class="slide-button">Bekijk</button>
     </a>

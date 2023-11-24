@@ -13,10 +13,19 @@
 
 <h1>Over ons</h1>
 
-<p>Hoi mijn naam is Euer en Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Welkom op vrucht, de blog waar je alles leert over de heerlijke wereld van fruit. Mijn naam is Euer en ik ben een gepassioneerde fruitliefhebber. Ik ben altijd op zoek naar nieuwe soorten, smaken en recepten om te proeven en te delen met jullie.
+</p>
+
+<p>
+Op deze blog vind je allerlei informatie over fruit, van de geschiedenis en de gezondheidsvoordelen tot de beste manieren om ze te bewaren en te bereiden. Je kunt ook inspiratie opdoen uit mijn persoonlijke verhalen en ervaringen met fruit, zoals mijn reizen naar exotische fruitboerderijen, mijn favoriete fruitwinkels en mijn experimenten met fruitige desserts
+</p>
+
+<p>
+Ik hoop dat je net zo veel van fruit houdt als ik, of dat je je liefde voor fruit wilt ontdekken of vergroten. Ik nodig je uit om mee te doen aan de vrucht community, waar je je mening, vragen en suggesties kunt delen met andere fruitfans. Je kunt me ook volgen op social media, waar ik regelmatig updates, tips en foto’s post over mijn fruitige avonturen.
+</p>
 
 <p class="last-p">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus mus. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Quisque non tellus orci ac auctor augue mauris. Morbi quis commodo odio aenean sed adipiscing. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Velit dignissim sodales ut eu sem integer vitae. Risus commodo viverra maecenas accumsan lacus vel. Arcu cursus euismod quis viverra nibh cras.
+Bedankt voor je bezoek aan vrucht, de blog die je leven fruitiger maakt! 🍓🍊🍌🍎🍍
 </p>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>

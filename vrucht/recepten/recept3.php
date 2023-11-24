@@ -15,8 +15,8 @@
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="/public/img/img1.webp" alt = "fruit img">
-    <h1>Heerlijke Bosbessen-Havermout Muffins</h1>
+        <img src="/public/img/img3.webp" alt = "fruit img">
+    <h1>Bosbessen-Havermout Muffins</h1>
     </div>
 
     <p>Inleiding</p>

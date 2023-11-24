@@ -6,10 +6,10 @@
             <div class="dropdown">
     <a href="/recept" class="dropdown-toggle">Recepten</a>
     <div class="dropdown-content">
-    <a href="/recepten/recept1">Mangosmoothie</a>
-        <a href="/recepten/recept2">Fruitijs</a>
-        <a href="/recepten/recept3">MangoSalade</a>
-        <a href="/recepten/recept4">Fruit yogurt</a>
+    <a href="/recepten/recept1">Fruitsmoothies</a>
+        <a href="/recepten/recept2">Passievrucht/Mango Cheesecake</a>
+        <a href="/recepten/recept3">Bosbessen-Havermout Muffins</a>
+        <a href="/recepten/recept4">Meloen-Munt Salade</a>
         <a href="/recepten/recept5">SterfruitSalade</a>
         <a href="/recepten/recept6">Watermaloenshake</a>
         <a href="/recepten/recept7">Fruitblokijs</a>

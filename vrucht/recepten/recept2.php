@@ -15,8 +15,8 @@
 
 <div class="recept-container">
     <div class="image-text-container">
-        <img src="/public/img/img1.webp" alt = "fruit img">
-    <h1>Magie van Passievrucht en Mango</h1>
+        <img src="/public/img/img2.webp" alt = "fruit img">
+    <h1>Passievrucht en Mango</h1>
     </div>
 
     <p>In de wereld van heerlijke desserts staat cheesecake hoog op de lijst van favorieten. Maar wat als we een exotische draai geven aan deze klassieker door de zoete smaak van passievrucht en mango toe te voegen? Maak je klaar om je smaakpapillen te betoveren met deze verleidelijke Passievrucht-Mango Cheesecake. In deze uitgebreide tekst ontdek je niet alleen het gedetailleerde recept, maar ook de oorsprong van deze verrukkelijke vruchten en enkele handige tips om je bakavontuur tot een succes te maken.
