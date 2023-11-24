@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Fruitsmoothies</title>
     <link rel="stylesheet" href="/public/css/flexbox.css">
     <link rel="stylesheet" href="/public/css/fruit.css">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
@@ -26,37 +27,33 @@
         <h2>Recept 1: Tropical Twist Smoothie</h2>
         <h3>Ingrediënten:</h3>
 
-        <p>1 banaan</p>
-
-        <p>1 kopje ananasstukjes</p>
-
-        <p>1/2 kopje mangoblokjes</p>
-
-        <p> 1/2 kopje kokosmelk</p>
-
-        <p>Handvol spinazie (optioneel voor extra voedingsstoffen)</p>
+        <ul>
+        <li>1 banaan</li>
+        <li>1 kopje ananasstukjes</li>
+        <li>1/2 kopje mangoblokjes</li>
+        <li> 1/2 kopje kokosmelk</li>
+        <li>Handvol spinazie (optioneel voor extra voedingsstoffen)</li>
+        </ul>
 
         <h4>Bereidingswijze:</h4>
 
         <p class="bereiding">Doe alle ingrediënten in een blender.
                  Mix tot een gladde consistentie.
-            Giet in een glas en geniet van de tropische verfrissing!
+                 Giet in een glas en geniet van de tropische verfrissing!
         </p>
         </div>
 
         <h2>Recept 2: Berry Blast Smoothie</h2>
         <h3>Ingrediënten:</h3>
 
-        <p>1 kopje gemengde bessen (aardbeien, bosbessen, frambozen)</p>
-
-        <p>1/2 kopje Griekse yoghurt</p>
-
-        <p>1 banaan</p>
-
-        <p>1/2 kopje sinaasappelsap</p>
-
-        <p>Handvol ijsblokjes</p>
-
+        <ul>
+        <li>1 kopje gemengde bessen (aardbeien, bosbessen, frambozen)</li>
+        <li>1/2 kopje Griekse yoghurt</li>
+        <li>1 banaan</li>
+        <li>1/2 kopje sinaasappelsap</li>
+        <li>Handvol ijsblokjes</li>
+        </ul>
+        
         <h4>Bereidingswijze:</h4>
 
         <p class="bereiding">
@@ -69,17 +66,14 @@
         <h2>Recept 3: Groene Vitaliteit Smoothie</h2>
         <h3>Ingrediënten:</h3>
 
-        <p>1 appel, in stukjes gesneden</p>
-
-        <p>1 peer, geschild en in blokjes</p>
-
-        <p>Handvol boerenkoolblaadjes</p>
-
-        <p>1/2 komkommer</p>
-
-        <p>Sap van 1 limoen</p>
-
-        <p>Water naar wens</p>
+        <ul>
+        <li>1 appel, in stukjes gesneden</li>
+        <li>1 peer, geschild en in blokjes</li>
+        <li>Handvol boerenkoolblaadjes</li>
+        <li>1/2 komkommer</li>
+        <li>Sap van 1 limoen</li>
+        <li>Water naar wens</li>
+        </ul>
 
         <h4>Bereidingswijze:</h4>
 

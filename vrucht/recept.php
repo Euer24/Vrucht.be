@@ -12,11 +12,11 @@
 <div class="flex-container">
     
     <div class="flex-item">
-        <a href="/recepten/recept1">
+        <a href="/recepten/Fruitsmoothies">
             <img src="/public/img/img1.webp" alt="img 9">
         </a>
-        <a href="/recepten/recept1" class="titel">
-            Fruit shake
+        <a href="/recepten/Fruitsmoothies" class="titel">
+            Fruit Smoothies
         </a>
         <br>
         <p>
@@ -24,11 +24,11 @@
         </p>
     </div>
     <div class="flex-item">
-        <a href="/recepten/recept2">
+        <a href="/recepten/Cheesecake">
             <img src="/public/img/img2.webp" alt="img 9">
         </a>
-        <a href="/recepten/recept2" class="titel">
-                 Passievrucht en Mango
+        <a href="/recepten/Cheesecake" class="titel">
+                 Cheesecake
         </a>
         <br>
         <p>
@@ -36,10 +36,10 @@
         </p>
     </div>
     <div class="flex-item">
-        <a href="/recepten/recept3">
+        <a href="/recepten/Muffins">
             <img src="/public/img/img3.webp" alt="img 9">
         </a>
-        <a href="/recepten/recept3" class="titel">
+        <a href="/recepten/Muffins" class="titel">
              Bosbessen-Havermout Muffins
         </a>
         <br>
@@ -48,10 +48,10 @@
         </p>
     </div>
     <div class="flex-item">
-        <a href="/recepten/recept4">
+        <a href="/recepten/Salade">
             <img src="/public/img/img4.webp" alt="img 9">
         </a>
-        <a href="/recepten/recept4" class="titel">
+        <a href="/recepten/Salade" class="titel">
             Frisse Meloen-Munt Salade
         </a>
         <br>

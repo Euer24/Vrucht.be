@@ -28,46 +28,32 @@
 
         <h3>Ingrediënten:</h3>
 
-        <p>1/2 Galiameloen, in blokjes</p>
-
-        <p>1/2 Cantaloupmeloen, in bolletjes</p>
-
-        <p>1/2 Watermeloen, in blokjes</p>
-
-        <p>Handvol verse muntblaadjes, fijngehakt</p>
-
-        <p>Sap van 2 limoenen</p>
-
-        <p>1 eetlepel honing (optioneel)</p>
-
-        <p>Een snufje zeezout</p>
+        <ol>
+        <li>1/2 Galiameloen, in blokjes</li>
+        <li>1/2 Cantaloupmeloen, in bolletjes</li>
+        <li>1/2 Watermeloen, in blokjes</li>
+        <li>Handvol verse muntblaadjes, fijngehakt</li>
+        <li>Sap van 2 limoenen</li>
+        <li>1 eetlepel honing (optioneel)</li>
+        <li>Een snufje zeezout</li>
+        </ol>
 
         <p>Bereidingswijze</p>
-
         <p>Stap 1: Voorbereiding van de Meloenen</p>
-
         <p>Schil de Galia- en Cantaloupmeloenen en verwijder de zaden.
            Snijd de Galiameloen in blokjes en maak bolletjes van de Cantaloupmeloen met een meloenlepel.
            Verwijder de schil en snijd de watermeloen in blokjes.
-
         <p>Stap 2: Samenvoegen van de Ingrediënten</p>
-
         <p>Doe alle meloenen in een grote kom.
             Voeg de fijngehakte muntblaadjes toe.</p>
-
         <p>Stap 3: Dressing Bereiden:</p>
-
         <p>In een aparte kom meng je het limoensap en de honing (indien gebruikt).
            Giet de dressing over de meloenen en munt.
            Voeg een snufje zeezout toe voor een perfecte balans van smaken.</p>
-
         <p>Stap 4: Voorzichtig Mengen</p>
-
         <p>Stap 5: Serveer en Geniet</p>
-
         <p>Serveer de Frisse Meloen-Munt Salade in individuele kommen of op een schaal.
             Garneer indien gewenst met extra muntblaadjes.</p>
-
         <p>De Frisse Meloen-Munt Salade is een perfecte aanvulling op zomerse picknicks, barbecues of gewoon als een gezonde snack. Geniet van de natuurlijke zoetheid van meloenen, de verkwikkende smaak van munt en het frisse tintje van limoen. Maak dit recept vandaag nog en laat je smaakpapillen dansen op een symfonie van zomerse smaken!</p>
         </div>
 
