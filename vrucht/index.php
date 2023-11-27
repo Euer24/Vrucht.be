@@ -1,52 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/public/css/slider.css">
+    <link rel="stylesheet" href="/public/css/swiper.css">
+    
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
+   
 </head>
 <body>
 
-<div class="slideshow-container">
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
 
-<div class="mySlides fade" style="background-image: url('/public/img/home1.webp'); background-size: cover; background-position: center;">
-    <a href="/recepten/recept1" class="text">
-        <div class="text-container">
-            <div class="slide-recept">Fruit Shake</div>
-            <p class="slide-text">Voor een gezonde dag!</p>
-            </div>
-            <button class="slide-button">Bekijk</button>
-    </a>
-</div>
-<div class="mySlides fade" style="background-image: url('/public/img/home2.webp'); background-size: cover; background-position: center;">
-    <a href="/recepten/recept1" class="text">
-        <div class="text-container">
-          <div class="slide-recept">Cheesecake</div>
-            <p class="slide-text">Zoet en erg goed!</p>
-            </div>
-            <button class="slide-button">Bekijk</button>
-    </a>
-</div>
-<div class="mySlides fade" style="background-image: url('/public/img/home3.webp'); background-size: cover; background-position: center;">
-    <a href="/recepten/recept1" class="text">
-        <div class="text-container">
-        <div class="slide-recept">Bosbessen-Havermout Muffins</div>
-            <p class="slide-text">Een fruitige snack.</p>
-            </div>
-            <button class="slide-button">Bekijk</button>
-    </a>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
 </div>
 
-  <p class="prev" onclick="plusSlides(-1)">&#10094;</p>
-  <p class="next" onclick="plusSlides(1)">&#10095;</p>
-</div>
-<br>
-
-<!-- de 3 cirkels -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+<!-- Rest of your HTML code -->
 
 <h2>Welkom bij Vrucht</h2>
 
@@ -56,36 +39,8 @@
     <a class="receptKnop" href="/recept">Bekijk Recepten</a>
 </div>
 
+
 </body>
-<script>
-    let slideIndex = 1;
-      showSlides(slideIndex);
-
-// volgende/vorige controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
 <?php include  $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 </html>
