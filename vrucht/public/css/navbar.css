@@ -27,6 +27,18 @@ header .logo
     margin-right: 90px;
 }
 
+@media (min-width: 1024px) {
+    .logo {
+        width: 200px;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .logo {
+        width: 300px;
+    }
+}
 .navbar {
     font-size: 18px;
     color: #fff;
@@ -37,6 +49,7 @@ header .logo
     display: flex;
     justify-content: center; 
     width: 100%; 
+    
 }
 
 .navbar a
@@ -52,6 +65,7 @@ header .logo
 {
     color: #000;
 }
+
 .navbar a::before
 {
     content: '';
@@ -113,6 +127,7 @@ header .logo
         display: inline;
         margin-top: 0;
     }
+    
     .hamburger {
         display: none;
     }
@@ -143,7 +158,7 @@ header .logo
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
     .hamburger {
         transform: translateX(-70px);
     }
@@ -170,7 +185,6 @@ header .logo
         margin: 8px 0; 
     }
 
-    
 }
 
 .dropdown {

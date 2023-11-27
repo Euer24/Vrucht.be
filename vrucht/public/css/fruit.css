@@ -12,6 +12,7 @@
 .recept-container img {
     width: 30%;
     height: auto; 
+    border-radius: 10px;
 }
 
 .image-text-container {
@@ -91,8 +92,6 @@ h3 {
 u .ul-text {
     font:size 100px;
 }
-
-
 
 @media (max-width: 768px) {
     .image-text-container {

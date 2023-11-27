@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/public/css/swiper.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="/public/css/swiper.css">
 
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
-   
 </head>
 <body>
 
@@ -16,22 +14,30 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
-    <a href="/recepten/Fruitsmoothies"></a>
     <img src="/public/img/home1.webp" alt="slider-image1">
-    <div>Slide 1</div>
+    <div class="text-container">
+        <a class="text" href=" /recepten/Fruitsmoothies">Fruitsmoothies</a>
+        <p>Voor een gezonde start.</p>
     </div>
+</div>
 
-    <div class="swiper-slide">
-    <a href="/recepten/Cheesecake"></a>
+<div class="swiper-slide">
     <img src="/public/img/home2.webp" alt="slider-image2">
-    <div>Slide 2</div>
+    <div class="text-container">
+        <a class="text" href="/recepten/Cheesecake">Cheesecake</a>
+        <p>Zoet en goed!</p>
     </div>
+</div>
 
-    <div class="swiper-slide">
-    <a href="/recepten/muffins"></a>
+<div class="swiper-slide">
     <img src="/public/img/home3.webp" alt="slider-image3">
-    <div>Slide 3</div>
-  </div>
+    <div class="text-container">
+        <a class="text" href="/recepten/Muffins">Muffins</a>
+        <p>Een lekker tussendoortje.</p>
+    </div>
+</div>
+</div>
+
   </div>
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>

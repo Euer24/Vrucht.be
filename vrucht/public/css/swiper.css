@@ -1,5 +1,8 @@
 .swiper-container {
-    width: 100%;
+     width: 100vw; 
+     overflow: hidden; 
+     
+
 }
 
 .swiper-slide {
@@ -13,15 +16,211 @@
 
 .swiper-slide img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     position: absolute;
     z-index: 1;
 }
 
-.swiper-slide div {
+.swiper-slide a {
     position: relative;
     z-index: 2;
-    color: #fff; /* Adjust this value to your needs */
+    color: #fff; 
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.text-container a,
+.text-container p {
+    display: block;
+    color: #fff;
+}
+
+.text-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    z-index: 3; 
+}
+
+.swiper-slide p {
+    margin-top: 20px; 
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    padding: 0px 12px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+
+    .swiper-button-next,
+    .swiper-button-next::after,
+    .swiper-button-prev,
+    .swiper-button-prev::after{
+
+      margin-bottom: 400px !important; 
+    }
+
+    .swiper-scrollbar{
+        position: absolute;
+        margin-bottom: 200px;
+    }
+
+    .swiper-pagination-bullets {
+        position: absolute;
+        margin-bottom: 350px;
+    }
+    
+    .swiper-container{
+        margin-top: -120px;
+    }
+
+    .swiper-slide {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 1000px; 
+    }
+
+    .navbar a {
+        display: inline-block !important
+      }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px)  {
+    .swiper-button-next,
+    .swiper-button-next::after,
+    .swiper-button-prev,
+    .swiper-button-prev::after{
+
+      margin-bottom: 300px !important; 
+    }
+
+    .swiper-scrollbar{
+        position: absolute;
+        margin-bottom: 400px;
+    }
+
+    .swiper-pagination-bullets {
+        position: absolute;
+        margin-bottom: 350px;
+    }
+    
+    .swiper-container{
+        margin-top: -120px;
+    }
+
+    .swiper-slide {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 1000px; 
+    }
+
+    .navbar a {
+        display: inline-block !important
+      }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px)  {
+    .text {
+        font-size: 40px; 
+    }
+}
+
+.swiper-scrollbar{
+    position: absolute;
+    margin-bottom: 320px;
+}
+
+.swiper-pagination-bullets {
+    position: absolute;
+    margin-bottom: 290px;
+}
+
+.swiper-button-next,
+.swiper-button-next::after,
+.swiper-button-prev,
+.swiper-button-prev::after {
+
+ margin-bottom: 250px !important; 
+ }
+
+ @media (min-width: 320px) and (max-width: 425px) {
+    .swiper-button-next,
+    .swiper-button-next::after,
+    .swiper-button-prev,
+    .swiper-button-prev::after{
+
+      margin-bottom: 670px !important; 
+    }
+
+    .swiper-scrollbar{
+        position: absolute;
+        margin-bottom: 850px;
+    }
+
+    .swiper-pagination-bullets {
+        position: absolute;
+        margin-bottom: 800px;
+    }
+    
+    .swiper-container{
+        margin-top: -120px;
+    }
+
+}
+
+@media (min-width: 426px) {
+    .swiper-button-next,
+    .swiper-button-next::after,
+    .swiper-button-prev,
+    .swiper-button-prev::after{
+
+      margin-bottom: 670px !important; 
+    }
+
+    .swiper-scrollbar{
+        position: absolute;
+        margin-bottom: 700px;
+    }
+
+    .swiper-pagination-bullets {
+        position: absolute;
+        margin-bottom: 600px;
+    }
+    
+    .swiper-container{
+        margin-top: -120px;
+    }
+
 }
 
