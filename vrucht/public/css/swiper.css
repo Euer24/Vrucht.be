@@ -1,0 +1,27 @@
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px; 
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.swiper-slide div {
+    position: relative;
+    z-index: 2;
+    color: #fff; /* Adjust this value to your needs */
+}
+
