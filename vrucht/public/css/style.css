@@ -7,7 +7,7 @@ font-size: 50px
 
 h2, h3, h4{
     color: black;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     text-align: center;
      font-size: 40px
    }
@@ -64,11 +64,13 @@ body {
 }
 
 .receptKnop {
-    position: absolute;
+    /* position: absolute;
     top: 120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
     display: block;
+    max-width: 200px;
+    margin: 20px auto 0;
     padding: 10px 20px; 
     background-color: rgb(231, 180, 108);
     color: rgb(0, 0, 0);
@@ -92,16 +94,10 @@ body {
     background-color: rgb(225, 157, 61);
 }
 
-.receptKnopContainer
+/* .receptKnopContainer
 {
  margin-top: 300px;
-}
-
-.icon
-{
-  margin-right: 20px; 
-}
-
+} */
 
 
    

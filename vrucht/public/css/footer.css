@@ -35,13 +35,18 @@ footer a:hover {
     justify-content: space-between;
     height: auto;
     margin-right: 40px;
-    margin-top: 80px;
+    
+}
+
+.footer-links {
+    margin-right: 60px;
 }
 
 .footer-images a img {
     width: 30px; 
     height: 30px;
     display: flex;
+    margin-top: 40px;
 }
 
 footer img.logo {
@@ -70,6 +75,14 @@ footer img.logo {
 
     .footer-images {
         margin-top: 20px;
+    }
+
+    footer img.logo {
+        margin-left: -65px;
+    }
+
+    svg.icon {
+        margin-right: 10px;
     }
 }
 

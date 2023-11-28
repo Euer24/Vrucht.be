@@ -18,7 +18,7 @@
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
     <label for="opmerking">Opmerking:</label>
-    <textarea id="opmerking" name="opmerking" required></textarea>
+    <textarea id="opmerking" name="opmerking" required rows="6" cols="50"></textarea>
     <input type="submit" value="Submit">
 </form>
 

@@ -4,7 +4,7 @@
     top: 0;
     left: 0; 
     width: 100%;
-    padding: 20px, 100px;
+    padding: 30px 100px;
     background: rgb(241, 214, 174);
     display: flex;
     justify-content: center;
@@ -16,6 +16,11 @@
 header .logo
 {
     margin-left:15px;/* logo naar links */
+}
+
+.navbar
+{
+    margin-left: 10px;
 }
 
 .logo {
@@ -31,98 +36,114 @@ header .logo
     .logo {
         width: 200px;
     }
-    
+
+    .navbar a
+    {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1915px) {
     .logo {
         width: 300px;
     }
 }
-.navbar {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    height: 60px;
-    padding-right: 550px;
-    display: flex;
-    justify-content: center; 
-    width: 100%; 
-    
-}
-
-.navbar a
-{
-    font-size: 18px;
-    color: #000000;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 50px;
-}
-
-.navbar a:hover
-{
-    color: #000;
-}
-
-.navbar a::before
-{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: rgb(0, 0, 0);
-    transition: 0.3s;
-}
-
-.navbar a:hover::before
-{
-   width: 100%;
-}
-
-.hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
-}
-
-.hamburger div {
-    width: 2rem;
-    height: 0.25rem;
-    background-color: #000000;
-}
-
-.navbar.open {
-    height: auto; 
-}
-
-.navbar.open {
-    display: block;
-    width: 400px;
-    position: absolute;
-    top: 100%;
-    left: 30;
-    background-color: rgb(241, 214, 174);
-    text-align: left;
-}
-
-.navbar.open a {
-    display: block;
-}
-
-@media (min-width: 769px) {
     .navbar {
-        position: static;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        height: 60px;
+        padding-right: 100px;
+        display: flex;
+        width: 100%; 
+        
+    }
+
+    .dropdown-content {
+        padding-left: -10px;
+      }
+
+    .navbar a
+    {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 70px;
+    }
+
+    .navbar a:hover
+    {
+        color: #000;
+    }
+
+    .navbar a::before
+    {
+        content: '';
+        
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+
+    .navbar a:hover::before
+    {
+    width: 100%;
+    }
+
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    .hamburger div {
+        width: 2rem;
+        height: 0.25rem;
+        background-color: #000000;
+    }
+
+    .navbar.open {
+        height: auto; 
+    }
+
+    .navbar.open {
+        display: block;
+        width: 400px;
+        position: absolute;
+        top: 100%;
+        left: -120px;
+        background-color: rgb(241, 214, 174);
+        text-align: left;
+    }
+
+    .navbar.open a {
+        display: block;
+    }
+
+
+
+
+    
+@media (min-width:1440px) {
+    .navbar {
         display: flex;
         height: auto;
         overflow: visible;
     }
+
     .navbar a {
         display: inline;
         margin-top: 0;
@@ -132,38 +153,45 @@ header .logo
         display: none;
     }
 
+    .navbar.open {
+        padding: 10px;
+        width: 100px;  
+    }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
     .navbar {
         display: none;
         flex-direction: column;
         background-color: #000000; 
     }
+    
     .navbar.open {
-        display: block;
+        display: none;
+        width: 2000px; 
     }
+
     .navbar a {
         display: block;
         margin-top: 5px;
         color: #000; 
     }
+
     .hamburger {
         display: flex;
         margin-left: 110px;
     }
+
     .receptKnop {
         margin-top: 80px;
     }
-
-}
-
-@media (max-width: 768px) {
+    
     .hamburger {
         transform: translateX(-70px);
     }
     .navbar a {
-        padding-left: 80px;
+        padding-left: 80px; /* padding links */
     }
 
     .receptKnop {
@@ -185,7 +213,81 @@ header .logo
         margin: 8px 0; 
     }
 
+    .dropdown-content {
+        background-color: rgb(241, 214, 174);
+    }
+
+    .dropdown-content a {
+        color: #000; 
+    }
+
 }
+
+@media (min-width: 1920){
+.navbar{
+    margin-left: 1300px;  /* adjust as needed */
+}
+
+}
+@media (min-width: 2000px) {
+    .logo {
+        width: 200px;
+    }
+
+    .navbar a
+    {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
+    .header
+{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    padding: 30px 100px;
+    background: rgb(241, 214, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+   
+}
+
+header .logo
+{
+    margin-left:-90px;/* logo naar links */
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    height: auto;
+    width: 400px;
+    margin-right: 70px;
+}
+
+.navbar a
+    {
+        font-size: 24px;
+        color: #000000;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 100px;
+
+    }
+
+    .navbar {
+        margin-left: 1000px;  /* adjust as needed */
+    }
+
+} /* einde media query  2000px*/
+
 
 .dropdown {
     position: relative;
@@ -197,7 +299,7 @@ header .logo
     display: none;
     position: absolute;
     background-color:rgb(241, 214, 174);
-    min-width: 10px;
+    min-width: 30px;
     z-index: 1;
     left: -50px;
     opacity: 0; 
@@ -221,12 +323,4 @@ header .logo
     display: block;
 }
 
-@media (max-width: 768px) {
-    .dropdown-content {
-        background-color: rgb(241, 214, 174);
-    }
 
-    .dropdown-content a {
-        color: #000; 
-    }
-}

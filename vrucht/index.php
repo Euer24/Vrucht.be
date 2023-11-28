@@ -8,47 +8,44 @@
 </head>
 <body>
 
-<!-- Slider main container -->
-<div class="swiper-container">
-  <!-- Additional required wrapper -->
+<div class="swiper my-swiper">
   <div class="swiper-wrapper">
-    <!-- Slides -->
     <div class="swiper-slide">
-    <img src="/public/img/home1.webp" alt="slider-image1">
-    <div class="text-container">
-        <a class="text" href=" /recepten/Fruitsmoothies">Fruitsmoothies</a>
+      <img src="/public/img/home1.webp" alt="slider-image1">
+      <div class="slide-container">
+        <a href=" /recepten/Fruitsmoothies">Fruitsmoothies</a>
         <p>Voor een gezonde start.</p>
+      </div>
     </div>
-</div>
 
-<div class="swiper-slide">
-    <img src="/public/img/home2.webp" alt="slider-image2">
-    <div class="text-container">
-        <a class="text" href="/recepten/Cheesecake">Cheesecake</a>
+    <div class="swiper-slide">
+      <img src="/public/img/home2.webp" alt="slider-image2">
+      <div class="slide-container">
+        <a href="/recepten/Cheesecake">Cheesecake</a>
         <p>Zoet en goed!</p>
+      </div>
     </div>
-</div>
 
-<div class="swiper-slide">
-    <img src="/public/img/home3.webp" alt="slider-image3">
-    <div class="text-container">
-        <a class="text" href="/recepten/Muffins">Muffins</a>
+    <div class="swiper-slide">
+      <img src="/public/img/home3.webp" alt="slider-image3">
+      <div class="slide-container">
+        <a href="/recepten/Muffins">Muffins</a>
         <p>Een lekker tussendoortje.</p>
+      </div>
     </div>
-</div>
-</div>
-
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
 
-  <!-- If we need navigation buttons -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+  <!-- <div class="swiper-pagination"></div>
+
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
 
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
+  <div class="swiper-scrollbar"></div> -->
 
 <h2>Welkom bij Vrucht</h2>
 
@@ -60,10 +57,15 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script>
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('.my-swiper', {
   // Optional parameters
   direction: 'horizontal',
+  
   loop: true,
+    autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
 
   // If we need pagination
   pagination: {
@@ -77,9 +79,9 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 
   // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
 });
 </script>
 </body>
