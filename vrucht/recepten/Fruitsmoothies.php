@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <title>Fruitsmoothies</title>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
+    
     <link rel="stylesheet" href="/public/css/flexbox.css">
     <link rel="stylesheet" href="/public/css/fruit.css">
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/head.php'?>
+    
 </head>
 <body>
 

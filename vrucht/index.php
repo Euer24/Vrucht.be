@@ -15,6 +15,7 @@
       <div class="slide-container">
         <a href=" /recepten/Fruitsmoothies">Fruitsmoothies</a>
         <p>Voor een gezonde start.</p>
+        <a href="/recepten/Fruitsmoothies"><button type="button">bekijk</button></a>
       </div>
     </div>
 
@@ -23,6 +24,7 @@
       <div class="slide-container">
         <a href="/recepten/Cheesecake">Cheesecake</a>
         <p>Zoet en goed!</p>
+        <a href="/recepten/Cheesecake"><button type="button">bekijk</button></a>
       </div>
     </div>
 
@@ -31,6 +33,7 @@
       <div class="slide-container">
         <a href="/recepten/Muffins">Muffins</a>
         <p>Een lekker tussendoortje.</p>
+        <a href="/recepten/Muffins"><button type="button">bekijk</button></a>
       </div>
     </div>
   </div>

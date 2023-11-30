@@ -47,12 +47,100 @@ header .logo
     }
 
 }
+@media (min-width: 1920px) and (max-width: 2200px) {
+    .logo {
+        width: 250px;
+    }
+}
+    .navbar {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        height: 60px;
+        padding-right: 120px;
+        display: flex;
+        width: 100%; 
+    }
+
+    .links-container {
+        padding-left: 100px;
+    }
+
+    .dropdown-content {
+        padding-left: -10px;
+      }
+
+    .navbar a
+    {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 100px;
+    }
+
+    .navbar a:hover
+    {
+        color: #000;
+    }
+
+    .navbar a::before
+    {
+        content: '';
+        
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+
+    .navbar a:hover::before
+    {
+    width: 100%;
+    }
+
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    .hamburger div {
+        width: 2rem;
+        height: 0.25rem;
+        background-color: #000000;
+    }
+
+    .navbar.open {
+        height: auto; 
+    }
+
+    .navbar.open {
+        display: block;
+        width: 400px;
+        position: absolute;
+        top: 100%;
+        left: -120px;
+        background-color: rgb(241, 214, 174);
+        text-align: left;
+    }
+
+    .navbar.open a {
+        display: block;
+    }
+
 
 @media (min-width: 1440px) and (max-width: 1915px) {
     .logo {
         width: 300px;
     }
-}
+
     .navbar {
         font-size: 18px;
         color: #fff;
@@ -132,7 +220,7 @@ header .logo
     .navbar.open a {
         display: block;
     }
-
+}
 
 
 
