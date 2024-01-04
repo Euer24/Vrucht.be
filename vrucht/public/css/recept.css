@@ -1,0 +1,41 @@
+.recept-container {
+    width: 100%;
+    max-width: 900px; 
+    margin: 0 auto; 
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+  .recept-container img {
+    width: 100%;
+    height: auto; 
+    margin-left: 20px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h1{
+  padding-bottom: 60px;
+  }
+ 
+.flex-item{
+ text-align: center;
+}
+
+.titel
+{
+color: black;
+text-decoration: none;
+}
+
+

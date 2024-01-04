@@ -1,0 +1,64 @@
+
+.swiper {
+margin-bottom: 100px;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+.swiper-slide .slide-container {
+width: 100%;
+position: absolute;
+left: 0;
+right: 0;
+top: 200px;
+}
+
+.swiper-slide .slide-container a  {
+display: block;
+font-size: 48px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+color: white;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.swiper-slide .slide-container p {
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.swiper-slide .slide-container button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: rgb(241, 214, 174);
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.swiper-slide .slide-container button:hover {
+  background-color: rgb(233, 182, 106);
+  color: white;
+}
