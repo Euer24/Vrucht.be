@@ -189,7 +189,7 @@ header .logo
     }
 
 
-@media (min-width: 1270px) and (max-width: 1915px) {
+@media (min-width: 1270px) and (max-width: 2560px) {
      .logo {
         width: 300px;
     }
