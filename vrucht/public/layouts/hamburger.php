@@ -1,7 +1,7 @@
 <script>
     document.querySelector('.hamburger').addEventListener('click', function() {
         var navbar = document.querySelector('.navbar');
-        if (window.innerWidth <= 1024) {
+        if (window.innerWidth <= 1268) {
             navbar.classList.toggle('open');
             if (navbar.style.display === "none" || navbar.style.display === "") {
                 navbar.style.display = "block";
@@ -13,7 +13,7 @@
 
     function checkNavbar() {
         var navbar = document.querySelector('.navbar');
-        if (window.innerWidth > 1024) {
+        if (window.innerWidth > 1268) {
             navbar.style.display = "flex";
             navbar.classList.remove('open');
         } else if (!navbar.classList.contains('open')) {

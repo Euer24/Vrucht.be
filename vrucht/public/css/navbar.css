@@ -275,7 +275,7 @@ header .logo
     }
 }
 
-@media  (max-width: 1268px) { /*vanaf hier doet hij raar  */
+@media  (max-width: 1270px) { /*vanaf hier doet hij raar  */
     .navbar {
         display: none;
         flex-direction: column;
