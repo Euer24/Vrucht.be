@@ -32,21 +32,71 @@ header .logo
     margin-right: 90px;
 }
 
-@media (min-width: 1024px) {
-    .logo {
-        width: 200px;
+@media (min-width: 1920px){
+    .navbar{
+        margin-left: 1300px;  /* adjust as needed */
     }
-
-    .navbar a
+    
+    }
+    @media (min-width: 2000px) {
+        .logo {
+            width: 200px;
+        }
+    
+        .navbar a
+        {
+            font-size: 18px;
+            color: #000000;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 0px;
+        }
+    
+        .header
     {
-        font-size: 18px;
-        color: #000000;
-        font-weight: 500;
-        text-decoration: none;
-        margin-left: 0px;
+        position: fixed;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        padding: 30px 100px;
+        background: rgb(241, 214, 174);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+       
     }
+    
+    header .logo
+    {
+        margin-left:-90px;/* logo naar links */
+    }
+    
+    .logo {
+        font-size: 32px;
+        color: #fff;
+        text-decoration: none;
+        height: auto;
+        width: 400px;
+        margin-right: 70px;
+    }
+    
+    .navbar a
+        {
+            font-size: 24px;
+            color: #000000;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 100px;
+    
+        }
+    
+        .navbar {
+            margin-left: 1000px;  /* adjust as needed */
+        }
+    
+    } /* einde media query  2000px*/
 
-}
 @media (min-width: 1920px) and (max-width: 2200px) {
     .logo {
         width: 250px;
@@ -64,7 +114,8 @@ header .logo
     }
 
     .links-container {
-        padding-left: 100px;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .dropdown-content {
@@ -122,23 +173,24 @@ header .logo
     }
 
     .navbar.open {
-        display: block;
-        width: fit-content;
+        display: grid;
         position: absolute;
         top: 100%;
-        left: -120px;
+        left: 0px;
         background-color: rgb(241, 214, 174);
         text-align: left;
+        width: 100%;
+        justify-content: center;
+        margin-left: 0px;
     }
 
     .navbar.open a {
         display: grid;
-        
     }
 
 
-@media (min-width: 1440px) and (max-width: 1915px) {
-    .logo {
+@media (min-width: 1270px) and (max-width: 1915px) {
+     .logo {
         width: 300px;
     }
 
@@ -223,33 +275,7 @@ header .logo
     }
 }
 
-
-
-    
-@media (min-width:1440px) {
-    .navbar {
-        display: flex;
-        height: auto;
-        overflow: visible;
-    }
-
-    .navbar a {
-        display: inline;
-        margin-top: 0;
-    }
-    
-    .hamburger {
-        display: none;
-    }
-
-    .navbar.open {
-        padding: 10px;
-        width: 100px;  
-    }
-
-}
-
-@media (max-width: 1439px) {
+@media  (max-width: 1239px) {
     .navbar {
         display: none;
         flex-direction: column;
@@ -257,7 +283,7 @@ header .logo
     }
     
     .navbar.open {
-        display: none;
+        display: grid;
         width: 2000px; 
     }
 
@@ -280,7 +306,7 @@ header .logo
         transform: translateX(-70px);
     }
     .navbar a {
-        padding-left: 130px; /* padding links */
+        
     }
 
     .receptKnop {
@@ -312,70 +338,7 @@ header .logo
 
 }
 
-@media (min-width: 1920){
-.navbar{
-    margin-left: 1300px;  /* adjust as needed */
-}
 
-}
-@media (min-width: 2000px) {
-    .logo {
-        width: 200px;
-    }
-
-    .navbar a
-    {
-        font-size: 18px;
-        color: #000000;
-        font-weight: 500;
-        text-decoration: none;
-        margin-left: 0px;
-    }
-
-    .header
-{
-    position: fixed;
-    top: 0;
-    left: 0; 
-    width: 100%;
-    padding: 30px 100px;
-    background: rgb(241, 214, 174);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-   
-}
-
-header .logo
-{
-    margin-left:-90px;/* logo naar links */
-}
-
-.logo {
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    height: auto;
-    width: 400px;
-    margin-right: 70px;
-}
-
-.navbar a
-    {
-        font-size: 24px;
-        color: #000000;
-        font-weight: 500;
-        text-decoration: none;
-        margin-left: 100px;
-
-    }
-
-    .navbar {
-        margin-left: 1000px;  /* adjust as needed */
-    }
-
-} /* einde media query  2000px*/
 
 
 .dropdown {
