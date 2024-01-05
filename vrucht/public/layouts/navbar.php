@@ -2,9 +2,11 @@
     <a href="/">
         <img src="/public/img/VRUCHT.svg" class="logo" alt="logo">
     </a>
+
     <nav class="navbar">
         <div class="links-container">
             <a href="/">Home</a>
+
             <div class="dropdown">
                 <a href="/recept" class="dropdown-toggle">Recepten</a>
                 <div class="dropdown-content">
@@ -14,6 +16,7 @@
                     <a href="/recepten/Salade">Meloen-Munt Salade</a>
                 </div>
             </div>
+            
             <a href="/over-ons">Over ons</a>
             <a href="/contact">Contact</a>
             </div>
