@@ -1,6 +1,6 @@
 .header
 {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0; 
     width: 100%;
@@ -48,6 +48,9 @@ header .logo
         padding-left: -10px;
       }
 
+    .dropdown {
+        margin-left : -20px;
+    }
     .navbar a
     {
         font-size: 18px;
@@ -125,7 +128,7 @@ header .logo
     position: absolute;
     background-color:rgb(241, 214, 174);
     z-index: 1;
-    left: -50px;
+    left: -130px;/* left: -50px; */
     opacity: 0; 
     transition: opacity 0.5s ease; 
 }
@@ -153,12 +156,18 @@ header .logo
     .header
     {
         padding: 30px 50px;
+        position: fixed;
     }
 
     .logo
     {
         font-size: 24px;
-        width: 150px;
+        width: 200px;
+    }
+
+    .dropdown {
+        margin-left : 0px;
+        
     }
 
     .navbar
@@ -224,3 +233,4 @@ header .logo
         transition: opacity 0.5s ease; 
     }
 }
+ 
