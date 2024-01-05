@@ -1,8 +1,8 @@
-.recept-container {
+/* .recept-container {
     width: 100%;
     max-width: 900px; 
     margin: 0 auto; 
-  }
+  } */
   
 body {
     display: flex;
@@ -14,11 +14,11 @@ footer {
     margin-top: auto;
 }
 
-  .recept-container img {
+  /* .recept-container img {
     width: 100%;
     height: auto; 
     margin-left: 20px;
-  }
+  } */
 
   p {
     text-align: center;
@@ -38,4 +38,11 @@ color: black;
 text-decoration: none;
 }
 
+.img-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+  
+}
 

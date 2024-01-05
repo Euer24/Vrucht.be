@@ -9,60 +9,60 @@
 
 <h1>De nieuwste recepten</h1>
 
-<div class="flex-container">
-    
-    <div class="flex-item">
-        <a href="/recepten/Fruitsmoothies">
-            <img src="/public/img/img1.webp" alt="img 9">
-        </a>
-        <a href="/recepten/Fruitsmoothies" class="titel">
-            Fruit Smoothies
-        </a>
-        <br>
-        <p>
-             6-11-2023
-        </p>
+<section>
+    <div class="container">
+        <div class="row row-lg-4 m-4">
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+                <div class="card text-center">
+                    <div class="img-container bg-image" style="background-image: url('/public/img/img1.webp');">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Fruit smoothies</h5>
+                        <p class="card-text">Dit is een test.</p>
+                        <a href="/recepten/Fruitsmoothies" class="btn btn-primary mt-auto">Bekijk recept</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+                <div class="card text-center">
+                    <div class="img-container bg-image" style="background-image: url('/public/img/img2.webp');">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cheesecake</h5>
+                        <p class="card-text">Dit is een test.</p>
+                        <a href="/recepten/Cheesecake" class="btn btn-primary mt-auto">Bekijk recept</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+                <div class="card text-center">
+                    <div class="img-container bg-image" style="background-image: url('/public/img/img3.webp');">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bosbessen-Muffins</h5>
+                        <p class="card-text">Dit is een test.</p>
+                        <a href="/recepten/Muffins" class="btn btn-primary mt-auto">Bekijk recept</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
+                <div class="card text-center">
+                    <div class="img-container bg-image" style="background-image: url('/public/img/img4.webp');">
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Meloen-Salade</h5>
+                        <p class="card-text">Dit is een test.</p>
+                        <a href="/recepten/Salade" class="btn btn-primary mt-auto">Bekijk recept</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="flex-item">
-        <a href="/recepten/Cheesecake">
-            <img src="/public/img/img2.webp" alt="img 9">
-        </a>
-        <a href="/recepten/Cheesecake" class="titel">
-                 Cheesecake
-        </a>
-        <br>
-        <p>
-             6-11-2023
-        </p>
-    </div>
-    <div class="flex-item">
-        <a href="/recepten/Muffins">
-            <img src="/public/img/img3.webp" alt="img 9">
-        </a>
-        <a href="/recepten/Muffins" class="titel">
-             Bosbessen-Havermout Muffins
-        </a>
-        <br>
-        <p>
-             6-11-2023
-        </p>
-    </div>
-    <div class="flex-item">
-        <a href="/recepten/Salade">
-            <img src="/public/img/img4.webp" alt="img 9">
-        </a>
-        <a href="/recepten/Salade" class="titel">
-            Frisse Meloen-Munt Salade
-        </a>
-        <br>
-        <p>
-        21-10-2023
-        </p>
-    </div>
-
+</section>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
+
 </body>
 </html>
 

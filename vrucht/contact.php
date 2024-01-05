@@ -24,5 +24,6 @@
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/bootstrap.php'; ?>
 </body>
 </html>
