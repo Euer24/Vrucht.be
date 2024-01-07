@@ -13,7 +13,7 @@ function get_meta_data() {
 <link rel="stylesheet" href="/public/css/navbar.css">
 <link rel="stylesheet" href="/public/css/style.css">
 <link rel="stylesheet" href="/public/css/footer.css">
-
+<link rel="stylesheet" href="/public/css/bootstrap.css">
 <?php 
 $meta_data = get_meta_data();
 ?>
@@ -28,3 +28,4 @@ $meta_data = get_meta_data();
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/navbar.php'; ?>
 
+<script src="/public/js/bootstrap.bundle.js"></script>
