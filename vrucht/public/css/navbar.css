@@ -3,6 +3,26 @@
     height: auto; 
 }
 
+.footer-links {
+    font-size: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+/* om alle svgs gezamelijk te bewegen */
+.svg-class {
+    
+    justify-content: flex-end;
+}
+
+svg {
+    margin-left: 20px;
+    
+}
+
+.receptKnopContainer{
+    margin-bottom: 100px;
+}
+
 @media (max-width: 576px) {
     .navbar-brand {
         order: -1; 
@@ -18,7 +38,18 @@
     .navbar-toggler {
         margin-left: 100px; 
     }
+
+    
+    
+    #footer-logo{
+    width: 200px;
+    }
+
+    svg {
+        margin-left: 0px;
+    }
 }
+
 
 
   
