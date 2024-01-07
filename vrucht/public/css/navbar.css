@@ -1,3 +1,7 @@
+.navbar-container {
+    background-color: rgb(231, 180, 108); 
+}
+
 .navbar-brand img {
     width: 240px; 
     height: auto; 
@@ -7,11 +11,6 @@
     font-size: 20px;
     flex-direction: column;
     text-align: center;
-}
-/* om alle svgs gezamelijk te bewegen */
-.svg-class {
-    
-    justify-content: flex-end;
 }
 
 svg {
@@ -23,6 +22,10 @@ svg {
     margin-bottom: 100px;
 }
 
+.footer-container {
+    background-color: rgb(231, 180, 108); /* Verander dit naar de gewenste kleur */
+}
+
 @media (max-width: 576px) {
     .navbar-brand {
         order: -1; 
@@ -31,6 +34,7 @@ svg {
     .footer-links {
         font-size: 0.8rem;
         flex-direction: column;
+        
     }
     .navbar-brand img {
         width: 120px; 
@@ -43,10 +47,17 @@ svg {
     
     #footer-logo{
     width: 200px;
+    margin-bottom: 20px;
     }
 
     svg {
-        margin-left: 0px;
+        margin-left: 5px;
+        
+    }
+    
+    /* om alle svgs gezamelijk te bewegen */
+    .svg-container{
+        justify-content: center;
     }
 }
 

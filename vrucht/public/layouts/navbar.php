@@ -1,8 +1,9 @@
-<div class="container-fluid">
+
+<div class="container-fluid navbar-container">
     <div class="row">
         <div class="col-1"></div> <!-- Lege kolom voor ruimte aan het begin -->
         <div class="col-auto">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg ">
                 <a class="navbar-brand" href="/">
                     <img src="/public/img/VRUCHT.svg" alt="logo">
                 </a>
@@ -39,4 +40,5 @@
         </div>
         <div class="col-1"></div> <!-- Lege kolom voor ruimte aan het einde -->
     </div>
+</div>
 </div>
