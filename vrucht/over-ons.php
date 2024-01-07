@@ -28,7 +28,6 @@ Ik hoop dat je net zo veel van fruit houdt als ik, of dat je je liefde voor frui
 Bedankt voor je bezoek aan vrucht, de blog die je leven fruitiger maakt! 🍓🍊🍌🍎🍍
 </p>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/bootstrap.php'; ?>
 </body>
 </html>

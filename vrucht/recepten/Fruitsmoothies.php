@@ -88,6 +88,5 @@
     </div>
 
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/footer.php'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/layouts/hamburger.php'; ?>
 </body>
 </html>
