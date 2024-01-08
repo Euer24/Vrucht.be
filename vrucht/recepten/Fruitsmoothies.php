@@ -11,13 +11,16 @@
         <a href="/recept" class="button">Ga Terug</a>
 
         <div class="row">
-            <div class="col-8">
+            <div class="col-12">
                 <div class="image-text-container float-left">
-                    <img src="/public/img/img1.webp" alt="fruit img"  style="width:100%">
+                    <img src="/public/img/img1.webp" alt="fruit img"  style="width:100% height:50%">
                 </div>
+                </div>
+               
+                 <div class="col-8">
 
                 <h1>Fruitsmoothies</h1> 
-                <div class="recept-text">
+               
                     <p>Fruitsmoothies bieden een scala aan voordelen die verder gaan dan alleen hun heerlijke smaak. Ze zijn een uitstekende manier om je dagelijkse portie fruit binnen te krijgen, wat bijdraagt aan een gezond dieet. Bovendien zijn smoothies gemakkelijk te bereiden, veelzijdig en perfect aan te passen aan jouw smaakvoorkeuren.</p>
                     <p>Fruitsmoothies zijn niet alleen verfrissend en smaakvol, maar ook een geweldige manier om essentiële voedingsstoffen binnen te krijgen. Of je nu een kickstart van energie nodig hebt in de ochtend, een verfrissing na een workout, of gewoon zin hebt in iets lekkers, fruitsmoothies zijn altijd een uitstekende keuze. In deze tekst nemen we je mee op een reis door de kleurrijke wereld van fruitsmoothies en delen we enkele heerlijke recepten die je smaakpapillen zullen verwennen.</p>
 
@@ -32,7 +35,7 @@
                         <li>Handvol spinazie (optioneel voor extra voedingsstoffen)</li>
                     </ul>
                     <h4>Bereidingswijze:</h4>
-                    <p class="bereiding">Mix tot een gladde consistentie.
+                    <p>Mix tot een gladde consistentie.
                     Giet in een glas en geniet van de tropische verfrissing!</p>
 
 
@@ -47,7 +50,7 @@
                         <li>Handvol ijsblokjes</li>
                     </ul>
                     <h4>Bereidingswijze:</h4>
-                    <p class="bereiding">Meng alle ingrediënten in de blender.
+                    <p>Meng alle ingrediënten in de blender.
                     Blend tot een zijdezachte textuur.
                     Schenk in een glas en geniet van de heerlijke bessenexplosie!</p>
 
@@ -64,11 +67,11 @@
                         <li>Water naar wens</li>
                     </ul>
                     <h4>Bereidingswijze:</h4>
-                    <p class="bereiding">Combineer alle ingrediënten in de blender.
+                    <p>Combineer alle ingrediënten in de blender.
                     Mix tot een groene, verfrissende smoothie.
                     Schenk in een glas en geniet van de gezonde vitaliteit</p>
                  </div>
-            </div>
+                
 
             
             <div class="col-4 border-start">

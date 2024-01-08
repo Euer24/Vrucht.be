@@ -39,3 +39,8 @@ h6 {
 p {
   text-align: left;
 }
+
+div,
+.recept-text {
+  text-align: left;
+}
