@@ -13,9 +13,11 @@
         <div class="row">
             <div class="col-12">
                 <div class="image-text-container float-left">
-                    <img src="/public/img/img1.webp" alt="fruit img"  style="width:100% height:50%">
+                    <!-- <img src="/public/img/img1.webp" alt="fruit img"  style="width:100% height:50%"> -->
+                    <div class="img-container bg-image" style="background-image: url('/../public/img/img1.webp');">
                 </div>
-                </div>
+                     </div>
+            </div>
                
                  <div class="col-8">
 

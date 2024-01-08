@@ -14,7 +14,7 @@
         <div class="row row-lg-4 m-4">
             <div class="col-xl-3 col-md-6 mb-3 d-flex align-items-stretch">
                 <div class="card text-center">
-                    <div class="img-container bg-image" style="background-image: url('/public/img/img1.webp');">
+                    <div class="img-container" style="background-image: url('/public/img/img1.webp');">
                     </div>
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Fruit smoothies</h5>
