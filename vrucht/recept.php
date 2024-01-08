@@ -19,7 +19,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Fruit smoothies</h5>
                         <p class="card-text">Dit is een test.</p>
-                        <a href="/recepten/Fruitsmoothies" class="btn btn-primary mt-auto">Bekijk recept</a>
+                        <a href="/recepten/Fruitsmoothies" class="btn mt-auto"  style ="background-color: rgb(231, 180, 108);">Bekijk recept</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Cheesecake</h5>
                         <p class="card-text">Dit is een test.</p>
-                        <a href="/recepten/Cheesecake" class="btn btn-primary mt-auto">Bekijk recept</a>
+                        <a href="/recepten/Cheesecake" class="btn mt-auto"  style ="background-color: rgb(231, 180, 108);">Bekijk recept</a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Bosbessen-Muffins</h5>
                         <p class="card-text">Dit is een test.</p>
-                        <a href="/recepten/Muffins" class="btn btn-primary mt-auto">Bekijk recept</a>
+                        <a href="/recepten/Muffins" class="btn mt-auto"  style ="background-color: rgb(231, 180, 108);" >Bekijk recept</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Meloen-Salade</h5>
                         <p class="card-text">Dit is een test.</p>
-                        <a href="/recepten/Salade" class="btn btn-primary mt-auto">Bekijk recept</a>
+                        <a href="/recepten/Salade" class="btn mt-auto"  style ="background-color: rgb(231, 180, 108);">Bekijk recept</a>
                     </div>
                 </div>
             </div>

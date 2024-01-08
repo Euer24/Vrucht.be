@@ -1,4 +1,4 @@
-.navbar-container {
+nav {
     background-color: rgb(231, 180, 108); 
 }
 
@@ -8,13 +8,14 @@
 }
 
 .footer-links {
-    font-size: 20px;
+    font-size: 22px;
     flex-direction: column;
     text-align: center;
 }
 
 svg {
     margin-left: 20px;
+    text-decoration: none;
     
 }
 
@@ -22,9 +23,18 @@ svg {
     margin-bottom: 100px;
 }
 
-.footer-container {
-    background-color: rgb(231, 180, 108); /* Verander dit naar de gewenste kleur */
+footer {
+    background-color: rgb(231, 180, 108); 
 }
+
+.dropdown-menu show {
+    background-color: rgb(231, 180, 108); 
+}
+
+#footer-logo{
+    width: 240px;
+    margin-bottom: 20px;
+    }
 
 @media (max-width: 576px) {
     .navbar-brand {
@@ -32,19 +42,17 @@ svg {
         width: 50px; 
     }
     .footer-links {
-        font-size: 0.8rem;
+        font-size: 16px;
         flex-direction: column;
         
     }
     .navbar-brand img {
-        width: 120px; 
+        width: 200px; 
     }
     .navbar-toggler {
         margin-left: 100px; 
     }
 
-    
-    
     #footer-logo{
     width: 200px;
     margin-bottom: 20px;
@@ -52,13 +60,13 @@ svg {
 
     svg {
         margin-left: 5px;
-        
     }
     
     /* om alle svgs gezamelijk te bewegen */
     .svg-container{
         justify-content: center;
     }
+
 }
 
 

@@ -64,10 +64,6 @@ body {
 }
 
 .receptKnop {
-    /* position: absolute;
-    top: 120%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
     display: block;
     max-width: 200px;
     margin: 20px auto 0;
@@ -80,16 +76,12 @@ body {
     text-align: center;
     font-size: 20px; 
     transition: background-color 0.3s ease; 
+   border-radius: 10px;
 }
 
-@media (min-width:320px) and (max-width:480px)
-{
-  .receptKnop {
-    top: 75%;
-  }
 
-}
 
 .receptKnop:hover {
     background-color: rgb(225, 157, 61);
+    
 }

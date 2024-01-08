@@ -1,119 +1,41 @@
-
-.recept-container {
-    width: 100%;
-    max-width: 2000px; 
-    margin: 0 auto; 
-    background-color: clear; /*rgb(241, 214, 174);*/
-    padding: 20px;
-    
-    border-radius: 10px;
-}
-
-.recept-container img {
-    width: 30%;
-    height: auto; 
-    border-radius: 10px;
-}
-
-.image-text-container {
-    display: flex;
-    gap: 20px;
-}
-
-p {
-    text-align: center;
-    font:size 100px;
-}
-
-li{
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-    font-size:25px;
-    margin-bottom: 20px;
-   
-}
-
-.bereiding {
-    text-align: center;
-    max-width: 700px;
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Georgia', serif; 
-    color: #333; 
-    text-align: center;
-    line-height: 0.5;
-    font:size 50px;
-    margin-bottom: 60px !important;
-    line-height: 1.5;
-}
-
-.colum {
-    padding: 10px;
-}
-
 .button {
-    margin-top: 120px;
-    margin-left: 0px;
-    background-color:rgb(238, 200, 145);
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 6px;
-    width: 150px;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 200, 145);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  width: 150px;
 }
 
 .button:hover {
-    background-color:rgb(231, 180, 108);
+  background-color: rgb(231, 180, 108);
 }
 
-.image-text-container {
-    display: flex;
-    gap: 0px; 
-    align-items: center;
+li,
+p {
+  text-align: left;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.image-text-container img, .image-text-container p {
-    width: 40%;
-    justify-content: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left !important;
 }
 
-u .ul-text {
-    font:size 100px;
-}
-
-@media (max-width: 768px) {
-    
-    .image-text-container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .button{
-        margin-left: 10px;
-    }
-
-    .image-text-container img, .image-text-container p {
-        width: 100%;
-    }
-
-    .bereiding {
-        max-width: 500px;
-    }
-    
-}
-
-@media (min-width:1000px) {
-
-    h1{
-        margin-left: 250px;
-    }
-
+.recept-text,
+p {
+  text-align: left;
 }

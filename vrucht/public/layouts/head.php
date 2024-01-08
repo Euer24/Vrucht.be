@@ -12,7 +12,6 @@ function get_meta_data() {
 <link rel="icon" href="/public/img/VRUCHT.svg">
 <link rel="stylesheet" href="/public/css/navbar.css">
 <link rel="stylesheet" href="/public/css/style.css">
-<link rel="stylesheet" href="/public/css/footer.css">
 <link rel="stylesheet" href="/public/css/bootstrap.css">
 <?php 
 $meta_data = get_meta_data();

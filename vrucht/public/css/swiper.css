@@ -51,7 +51,7 @@ width: 100%;
   font-weight: bold;
   text-align: center;
   color: white;
-  background-color: rgb(241, 214, 174);
+  background-color: rgb(231, 180, 108);
   border: none;
   text-decoration: none;
   cursor: pointer;
@@ -59,6 +59,6 @@ width: 100%;
 }
 
 .swiper-slide .slide-container button:hover {
-  background-color: rgb(233, 182, 106);
+  background-color: rgb(225, 157, 61);
   color: white;
 }
