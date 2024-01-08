@@ -48,7 +48,7 @@ div,
 .img-container {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 220px;
+  height: 440px;
   width: 100%;
-  /* background-position: center; */
+  background-position: center;
 }
